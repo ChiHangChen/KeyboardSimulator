@@ -64,7 +64,8 @@ up,38
 right,39
 down,40
 insert,45
-delete,46
+space,32
+del,46
 numlock,144
 num0,96
 num1,97

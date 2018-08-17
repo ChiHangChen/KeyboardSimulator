@@ -5,8 +5,24 @@ mouse_left_click <- function() {
     invisible(.Call(`_KeyboardSimulator_mouse_left_click`))
 }
 
+mouse_left_hold <- function() {
+    invisible(.Call(`_KeyboardSimulator_mouse_left_hold`))
+}
+
+mouse_left_release <- function() {
+    invisible(.Call(`_KeyboardSimulator_mouse_left_release`))
+}
+
 mouse_right_click <- function() {
     invisible(.Call(`_KeyboardSimulator_mouse_right_click`))
+}
+
+mouse_right_hold <- function() {
+    invisible(.Call(`_KeyboardSimulator_mouse_right_hold`))
+}
+
+mouse_right_release <- function() {
+    invisible(.Call(`_KeyboardSimulator_mouse_right_release`))
 }
 
 press_c <- function(x) {

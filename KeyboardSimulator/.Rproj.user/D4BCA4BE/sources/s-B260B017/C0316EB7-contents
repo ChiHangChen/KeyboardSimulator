@@ -1,5 +1,0 @@
-useDynLib(KeyboardSimulator, .registration=TRUE)
-#exportPattern("^[[:alpha:]]+")
-export(keybd.press_and_release,keybd.press_and_hold,keybd.release)
-export(mouse.left_click,mouse.right_click)
-importFrom(Rcpp, evalCpp)

@@ -7,15 +7,15 @@
     "folds" : "",
     "hash" : "0",
     "id" : "BE82F6C2",
-    "lastKnownWriteTime" : 1534513361,
-    "last_content_update" : 1534513362000,
+    "lastKnownWriteTime" : 1534521979,
+    "last_content_update" : 1534521979568,
     "path" : "~/GitHub/KeyboardSimulator/KeyboardSimulator/R/main.R",
     "project_path" : "R/main.R",
     "properties" : {
-        "cursorPosition" : "43,18",
-        "scrollLine" : "37"
+        "cursorPosition" : "8,2",
+        "scrollLine" : "0"
     },
-    "relative_order" : 2,
+    "relative_order" : 1,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_source"

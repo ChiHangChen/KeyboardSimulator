@@ -14,12 +14,48 @@ BEGIN_RCPP
     return R_NilValue;
 END_RCPP
 }
+// mouse_left_hold
+void mouse_left_hold();
+RcppExport SEXP _KeyboardSimulator_mouse_left_hold() {
+BEGIN_RCPP
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    mouse_left_hold();
+    return R_NilValue;
+END_RCPP
+}
+// mouse_left_release
+void mouse_left_release();
+RcppExport SEXP _KeyboardSimulator_mouse_left_release() {
+BEGIN_RCPP
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    mouse_left_release();
+    return R_NilValue;
+END_RCPP
+}
 // mouse_right_click
 void mouse_right_click();
 RcppExport SEXP _KeyboardSimulator_mouse_right_click() {
 BEGIN_RCPP
     Rcpp::RNGScope rcpp_rngScope_gen;
     mouse_right_click();
+    return R_NilValue;
+END_RCPP
+}
+// mouse_right_hold
+void mouse_right_hold();
+RcppExport SEXP _KeyboardSimulator_mouse_right_hold() {
+BEGIN_RCPP
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    mouse_right_hold();
+    return R_NilValue;
+END_RCPP
+}
+// mouse_right_release
+void mouse_right_release();
+RcppExport SEXP _KeyboardSimulator_mouse_right_release() {
+BEGIN_RCPP
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    mouse_right_release();
     return R_NilValue;
 END_RCPP
 }
@@ -56,7 +92,11 @@ END_RCPP
 
 static const R_CallMethodDef CallEntries[] = {
     {"_KeyboardSimulator_mouse_left_click", (DL_FUNC) &_KeyboardSimulator_mouse_left_click, 0},
+    {"_KeyboardSimulator_mouse_left_hold", (DL_FUNC) &_KeyboardSimulator_mouse_left_hold, 0},
+    {"_KeyboardSimulator_mouse_left_release", (DL_FUNC) &_KeyboardSimulator_mouse_left_release, 0},
     {"_KeyboardSimulator_mouse_right_click", (DL_FUNC) &_KeyboardSimulator_mouse_right_click, 0},
+    {"_KeyboardSimulator_mouse_right_hold", (DL_FUNC) &_KeyboardSimulator_mouse_right_hold, 0},
+    {"_KeyboardSimulator_mouse_right_release", (DL_FUNC) &_KeyboardSimulator_mouse_right_release, 0},
     {"_KeyboardSimulator_press_c", (DL_FUNC) &_KeyboardSimulator_press_c, 1},
     {"_KeyboardSimulator_press_and_release_c", (DL_FUNC) &_KeyboardSimulator_press_and_release_c, 1},
     {"_KeyboardSimulator_release_c", (DL_FUNC) &_KeyboardSimulator_release_c, 1},
