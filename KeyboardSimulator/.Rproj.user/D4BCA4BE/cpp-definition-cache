@@ -2,6 +2,21 @@
     {
         "definitions" : [
             {
+                "column" : 24,
+                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/init.cpp",
+                "kind" : 6,
+                "line" : 16,
+                "name" : "R_init_KeyboardSimulator(DllInfo *)",
+                "parent_name" : "",
+                "usr" : "c:@F@R_init_KeyboardSimulator#*$@S@_DllInfo#"
+            }
+        ],
+        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/init.cpp",
+        "file_last_write" : 1534534989
+    },
+    {
+        "definitions" : [
+            {
                 "column" : 6,
                 "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/mouse_L.cpp",
                 "kind" : 6,

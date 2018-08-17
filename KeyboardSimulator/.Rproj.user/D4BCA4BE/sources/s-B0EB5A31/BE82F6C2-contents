@@ -3,8 +3,6 @@
 # Keyboard ---------------------------------------------------------------
 
 
-keyboard_value<-read.csv("./data/keyboardvalue.csv")
-
 #Can be released by press the button on phsical keyboard or using keybd.release function
 keybd.press <- function(button,hold=F) {
   if(!is.character(button))

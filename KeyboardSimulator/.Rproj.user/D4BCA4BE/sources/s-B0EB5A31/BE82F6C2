@@ -2,18 +2,18 @@
     "collab_server" : "",
     "contents" : "",
     "created" : 1534499345399.000,
-    "dirty" : false,
+    "dirty" : true,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "0",
     "id" : "BE82F6C2",
-    "lastKnownWriteTime" : 1534521979,
-    "last_content_update" : 1534521979568,
+    "lastKnownWriteTime" : 1534533033,
+    "last_content_update" : 1534533200159,
     "path" : "~/GitHub/KeyboardSimulator/KeyboardSimulator/R/main.R",
     "project_path" : "R/main.R",
     "properties" : {
-        "cursorPosition" : "8,2",
-        "scrollLine" : "0"
+        "cursorPosition" : "13,26",
+        "scrollLine" : "6"
     },
     "relative_order" : 1,
     "source_on_save" : false,
