@@ -1,11 +1,12 @@
 Package: KeyboardSimulator
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
-Encoding: UTF-8
-LazyData: true
+Title: What the Package Does in One 'Title Case' Line
+Version: 1.0
+Date: 2018-08-17
+Author: Your Name
+Maintainer: Your Name <your@email.com>
+Description: One paragraph description of what the package does as one or more full sentences.
+License: GPL (>= 2)
+Imports: Rcpp (>= 0.12.18)
+LinkingTo: Rcpp
+RoxygenNote: 6.1.0

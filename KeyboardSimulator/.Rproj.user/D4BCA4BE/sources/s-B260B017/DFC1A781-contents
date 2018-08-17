@@ -1,0 +1,2 @@
+keyboard_value<-read.csv("./src/keyboardvalue.csv")
+save(keyboard_value,file="./KeyboardSimulator/data/keyboardvalue.RData")

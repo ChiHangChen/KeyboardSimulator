@@ -1,2 +1,77 @@
 [
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/mouse_L.cpp",
+                "kind" : 6,
+                "line" : 9,
+                "name" : "mouse_left_click",
+                "parent_name" : "",
+                "usr" : "c:@F@mouse_left_click#"
+            }
+        ],
+        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/mouse_L.cpp",
+        "file_last_write" : 1534512955
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/mouse_R.cpp",
+                "kind" : 6,
+                "line" : 9,
+                "name" : "mouse_right_click",
+                "parent_name" : "",
+                "usr" : "c:@F@mouse_right_click#"
+            }
+        ],
+        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/mouse_R.cpp",
+        "file_last_write" : 1534513227
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/press.cpp",
+                "kind" : 6,
+                "line" : 9,
+                "name" : "press_c(Rcpp::NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@press_c#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#"
+            }
+        ],
+        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/press.cpp",
+        "file_last_write" : 1534504360
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/press_and_release.cpp",
+                "kind" : 6,
+                "line" : 9,
+                "name" : "press_and_release_c(Rcpp::NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@press_and_release_c#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#"
+            }
+        ],
+        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/press_and_release.cpp",
+        "file_last_write" : 1534497922
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/release.cpp",
+                "kind" : 6,
+                "line" : 9,
+                "name" : "release_c(Rcpp::NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@release_c#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#"
+            }
+        ],
+        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/release.cpp",
+        "file_last_write" : 1534504347
+    }
 ]

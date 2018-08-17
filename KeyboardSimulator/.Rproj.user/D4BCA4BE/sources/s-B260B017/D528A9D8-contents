@@ -6,11 +6,7 @@
 using namespace Rcpp;
 
 // [[Rcpp::export]]
-void press_and_release_c (Rcpp::NumericVector x){
-  for (int ii = 0; ii < x.size(); ii++)
-  {
-    keybd_event(x[ii],0,0,0);
-  }
+void release_c (Rcpp::NumericVector x){
 
   for (int ii = 0; ii < x.size(); ii++)
   {
@@ -18,6 +14,6 @@ void press_and_release_c (Rcpp::NumericVector x){
   }
 }
 
-//Rcpp::sourceCpp("C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/press_and_release.cpp")
+//Rcpp::sourceCpp("C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/press_and_release.cpp")
 //alt 18
 //alt 115

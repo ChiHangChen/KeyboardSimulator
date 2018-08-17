@@ -1,0 +1,3 @@
+keyboard_value<-read.csv("./data/keyboardvalue.csv")
+keyboard_value$button<-sapply(as.character(keyboard_value$button),tolower)
+write.csv(keyboard_value,file="./data/keyboardvalue.csv")

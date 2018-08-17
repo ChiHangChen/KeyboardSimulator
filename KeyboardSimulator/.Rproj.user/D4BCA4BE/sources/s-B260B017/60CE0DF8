@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1534511074824.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2564197147",
+    "id" : "60CE0DF8",
+    "lastKnownWriteTime" : 1534513227,
+    "last_content_update" : 1534513227675,
+    "path" : "~/GitHub/KeyboardSimulator/KeyboardSimulator/src/mouse_R.cpp",
+    "project_path" : "src/mouse_R.cpp",
+    "properties" : {
+        "cursorPosition" : "14,9",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "cpp"
+}
