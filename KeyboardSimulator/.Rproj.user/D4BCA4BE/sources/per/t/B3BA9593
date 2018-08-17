@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1534463337227.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3999614588",
+    "id" : "B3BA9593",
+    "lastKnownWriteTime" : 1534463357,
+    "last_content_update" : 1534463357710,
+    "path" : "~/GitHub/KeyboardSimulator/press_and_release.cpp",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "8,24",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "cpp"
+}
