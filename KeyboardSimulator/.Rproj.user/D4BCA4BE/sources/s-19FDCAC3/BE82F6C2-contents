@@ -62,8 +62,7 @@ keybd.release <- function(button) {
 # Mouse -------------------------------------------------------------------
 
 #' Simulate mouse click
-#' @param button character. The key to be released, can release several keys simultaneously with '+' as separator
-#' , uppercase or lowercase are not sensitive. 
+#' @param button character. The allowed values are "\code{left}" and "\code{right}"
 #' @examples
 #' ## Move to the third working window
 mouse.click<-function(button="left",hold=F){
