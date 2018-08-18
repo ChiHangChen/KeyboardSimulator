@@ -1,18 +1,18 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1534522859076.000,
+    "created" : 1534604383936.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "0",
-    "id" : "4BBD65A3",
-    "lastKnownWriteTime" : 1534532431,
-    "last_content_update" : 1534532431988,
+    "id" : "FA561223",
+    "lastKnownWriteTime" : 1534604388,
+    "last_content_update" : 1534604388494,
     "path" : "~/GitHub/KeyboardSimulator/ToCran.R",
     "project_path" : null,
     "properties" : {
-        "cursorPosition" : "0,33",
+        "cursorPosition" : "3,0",
         "scrollLine" : "0",
         "tempName" : "Untitled1"
     },

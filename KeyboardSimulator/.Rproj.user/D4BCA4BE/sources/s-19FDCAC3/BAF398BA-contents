@@ -1,0 +1,8 @@
+library(KeyboardSimulator)
+keybd.press('Alt',hold=T)
+keybd.press('F4')
+keybd.release('Alt')
+keybd.press('right')
+Sys.sleep(1)
+keybd.press('right')
+keybd.press('enter')

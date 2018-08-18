@@ -1,6 +1,8 @@
 C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/DESCRIPTION="F4DD2332"
 C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/NAMESPACE="223F2BB9"
 C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/R/RcppExports.R="73F24C48"
+C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/man/keybd.press.Rd="132BFE54"
+C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/man/keybd.release.Rd="F45E4E5E"
 C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/RcppExports.cpp="8D252897"
 C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/mouse_L.cpp="8DCF9F61"
 C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/mouse_L_release.cpp="2727C70"
@@ -11,4 +13,3 @@ C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/press.
 C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/press_and_release.cpp="F4CF1AC6"
 C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/release.cpp="9CA01CA6"
 C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/ToCran.R="8C08B91C"
-C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/init_cpp.R="6E485A03"

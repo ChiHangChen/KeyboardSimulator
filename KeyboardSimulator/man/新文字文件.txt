@@ -1,0 +1,32 @@
+\name{KeyboardSimulator-package}
+\alias{KeyboardSimulator-package}
+\alias{KeyboardSimulator}
+\docType{package}
+\title{
+  Simulate Keyboard Press and Mouse Click on Windows Platform
+}
+\description{
+  Control your keyboard and mouse with R code, simulate key press and mouse click.
+}
+\details{
+  \itemize{
+  \item Send keyboard and mouse event.
+  \item Written in C++.
+  \item Key press and hold support.
+  \item Key combination support (e.g. Alt+F4 , Ctrl+Space)
+  }
+}
+\author{
+\itemize{
+  \item Jim Chen <jim71183@gmail.com>
+}
+Other contributors:
+\itemize{
+  \item Cheih Hsu <tiff103012345@gmail.com>
+}
+}
+\seealso{
+\itemize{
+  \item \url{https://github.com/ChiHangChen/KeyboardSimulator}
+}
+

@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1534609992100.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4075348932",
+    "id" : "CE406C32",
+    "lastKnownWriteTime" : 1534610438,
+    "last_content_update" : 1534610438070,
+    "path" : "~/GitHub/KeyboardSimulator/KeyboardSimulator/man/KeyboardSimulator-package.Rd",
+    "project_path" : "man/KeyboardSimulator-package.Rd",
+    "properties" : {
+        "cursorPosition" : "30,29",
+        "scrollLine" : "18"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}
