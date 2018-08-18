@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1534611158398.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "CE65BB26",
+    "lastKnownWriteTime" : 1534611714,
+    "last_content_update" : 1534611714,
+    "path" : "~/GitHub/KeyboardSimulator/KeyboardSimulator/man/keybd.press.Rd",
+    "project_path" : "man/keybd.press.Rd",
+    "properties" : {
+        "cursorPosition" : "12,36",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

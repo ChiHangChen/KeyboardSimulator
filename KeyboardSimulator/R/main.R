@@ -18,10 +18,10 @@
 #' keybd.press('Alt+F4')
 #' 
 #' ## press several key using hold
-#' keybd.press('Alt',hold=T)
+#' keybd.press('Alt',hold=TRUE)
 #' keybd.press('F4')
 #' keybd.release('Alt')
-keybd.press <- function(button,hold=F) {
+keybd.press <- function(button,hold=FALSE) {
   if(!is.character(button))
     stop("Argument must be character")
   button_str<-sapply(strsplit(button,"\\+")[[1]],tolower)
@@ -36,12 +36,12 @@ keybd.press <- function(button,hold=F) {
   }
 }
 
-#' Release Held key Pressed by \code{keybd.press}
+#' Release Held key Pressed by \code{\link[KeyboardSimulator]{keybd.press}}
 #' @param button character. The key to be released, can release several keys simultaneously with  \code{+} as separator
 #' , uppercase or lowercase are not sensitive. 
 #' @examples
 #' ## Move to the third working window
-#' keybd.press('Alt',hold=T)
+#' keybd.press('Alt',hold=TRUE)
 #' keybd.press('Tab')
 #' Sys.sleep(0.1)
 #' keybd.press('Tab')
@@ -63,9 +63,10 @@ keybd.release <- function(button) {
 
 #' Simulate mouse click
 #' @param button character. The allowed values are "\code{left}" and "\code{right}"
+#' @param hold logical. Should the key to be held after click.
 #' @examples
-#' ## Move to the third working window
-mouse.click<-function(button="left",hold=F){
+#' mouse.click(button="left",hold=TRUE)
+mouse.click<-function(button="left",hold=FALSE){
   btn<-tolower(button)
   if(btn=="left"){
     if(hold){
@@ -84,7 +85,12 @@ mouse.click<-function(button="left",hold=F){
   }
 }
 
-#' mouse.release
+#' Release Held key clicked by \code{\link[KeyboardSimulator]{mouse.click}}
+#' @param button character. The allowed values are "\code{left}" and "\code{right}"
+#' @examples
+#' ## Click right button
+#' mouse.click(button="right",hold=TRUE)
+#' mouse.release(button="right")
 mouse.release<-function(button="left"){
   btn<-tolower(button)
   if(btn=="left"){

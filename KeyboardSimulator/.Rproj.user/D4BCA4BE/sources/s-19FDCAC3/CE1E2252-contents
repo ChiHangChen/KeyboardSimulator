@@ -4,14 +4,16 @@
 \alias{mouse.click}
 \title{Simulate mouse click}
 \usage{
-mouse.click(button = "left", hold = F)
+mouse.click(button = "left", hold = FALSE)
 }
 \arguments{
 \item{button}{character. The allowed values are "\code{left}" and "\code{right}"}
+
+\item{hold}{logical. Should the key to be held after click.}
 }
 \description{
 Simulate mouse click
 }
 \examples{
-## Move to the third working window
+mouse.click(button="left",hold=TRUE)
 }

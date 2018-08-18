@@ -7,8 +7,8 @@
     "folds" : "",
     "hash" : "0",
     "id" : "CE1E2252",
-    "lastKnownWriteTime" : 1534610936,
-    "last_content_update" : 1534610936,
+    "lastKnownWriteTime" : 1534611601,
+    "last_content_update" : 1534611601,
     "path" : "~/GitHub/KeyboardSimulator/KeyboardSimulator/man/mouse.click.Rd",
     "project_path" : "man/mouse.click.Rd",
     "properties" : {
@@ -16,7 +16,7 @@
         "scrollLine" : "0"
     },
     "relative_order" : 6,
-    "source_on_save" : false,
+    "source_on_save" : true,
     "source_window" : "",
     "type" : "r_doc"
 }
