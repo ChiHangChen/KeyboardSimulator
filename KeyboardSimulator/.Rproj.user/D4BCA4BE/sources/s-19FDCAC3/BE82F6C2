@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2862140494",
+    "hash" : "0",
     "id" : "BE82F6C2",
-    "lastKnownWriteTime" : 1534611896,
-    "last_content_update" : 1534611896557,
+    "lastKnownWriteTime" : 1534626638,
+    "last_content_update" : 1534626638263,
     "path" : "~/GitHub/KeyboardSimulator/KeyboardSimulator/R/main.R",
     "project_path" : "R/main.R",
     "properties" : {
-        "cursorPosition" : "70,19",
-        "scrollLine" : "58"
+        "cursorPosition" : "63,23",
+        "scrollLine" : "91"
     },
     "relative_order" : 1,
     "source_on_save" : false,
