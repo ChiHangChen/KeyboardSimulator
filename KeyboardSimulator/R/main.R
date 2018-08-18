@@ -68,7 +68,7 @@ keybd.release <- function(button) {
 #' mouse.click(button="left",hold=TRUE)
 mouse.click<-function(button="left",hold=FALSE){
   btn<-tolower(button)
-  if(btn=="left"){
+  if(btn=="left"){a
     if(hold){
       mouse_left_hold()
     }else{
