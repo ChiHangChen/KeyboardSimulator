@@ -3,7 +3,7 @@
         "definitions" : [
             {
                 "column" : 6,
-                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/mouse_L.cpp",
+                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/src/mouse_L.cpp",
                 "kind" : 6,
                 "line" : 9,
                 "name" : "mouse_left_click",
@@ -11,14 +11,14 @@
                 "usr" : "c:@F@mouse_left_click#"
             }
         ],
-        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/mouse_L.cpp",
+        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/src/mouse_L.cpp",
         "file_last_write" : 1534512955
     },
     {
         "definitions" : [
             {
                 "column" : 6,
-                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/mouse_L_hold.cpp",
+                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/src/mouse_L_hold.cpp",
                 "kind" : 6,
                 "line" : 9,
                 "name" : "mouse_left_hold",
@@ -26,14 +26,14 @@
                 "usr" : "c:@F@mouse_left_hold#"
             }
         ],
-        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/mouse_L_hold.cpp",
+        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/src/mouse_L_hold.cpp",
         "file_last_write" : 1534515805
     },
     {
         "definitions" : [
             {
                 "column" : 6,
-                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/mouse_L_release.cpp",
+                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/src/mouse_L_release.cpp",
                 "kind" : 6,
                 "line" : 9,
                 "name" : "mouse_left_release",
@@ -41,14 +41,14 @@
                 "usr" : "c:@F@mouse_left_release#"
             }
         ],
-        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/mouse_L_release.cpp",
+        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/src/mouse_L_release.cpp",
         "file_last_write" : 1534519124
     },
     {
         "definitions" : [
             {
                 "column" : 6,
-                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/mouse_R.cpp",
+                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/src/mouse_R.cpp",
                 "kind" : 6,
                 "line" : 9,
                 "name" : "mouse_right_click",
@@ -56,14 +56,14 @@
                 "usr" : "c:@F@mouse_right_click#"
             }
         ],
-        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/mouse_R.cpp",
+        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/src/mouse_R.cpp",
         "file_last_write" : 1534513227
     },
     {
         "definitions" : [
             {
                 "column" : 6,
-                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/mouse_R_hold.cpp",
+                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/src/mouse_R_hold.cpp",
                 "kind" : 6,
                 "line" : 9,
                 "name" : "mouse_right_hold",
@@ -71,14 +71,14 @@
                 "usr" : "c:@F@mouse_right_hold#"
             }
         ],
-        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/mouse_R_hold.cpp",
+        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/src/mouse_R_hold.cpp",
         "file_last_write" : 1534519228
     },
     {
         "definitions" : [
             {
                 "column" : 6,
-                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/mouse_R_release.cpp",
+                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/src/mouse_R_release.cpp",
                 "kind" : 6,
                 "line" : 9,
                 "name" : "mouse_right_release",
@@ -86,14 +86,14 @@
                 "usr" : "c:@F@mouse_right_release#"
             }
         ],
-        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/mouse_R_release.cpp",
+        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/src/mouse_R_release.cpp",
         "file_last_write" : 1534519243
     },
     {
         "definitions" : [
             {
                 "column" : 6,
-                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/press.cpp",
+                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/src/press.cpp",
                 "kind" : 6,
                 "line" : 9,
                 "name" : "press_c(Rcpp::NumericVector)",
@@ -101,14 +101,14 @@
                 "usr" : "c:@F@press_c#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#"
             }
         ],
-        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/press.cpp",
+        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/src/press.cpp",
         "file_last_write" : 1534504360
     },
     {
         "definitions" : [
             {
                 "column" : 6,
-                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/press_and_release.cpp",
+                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/src/press_and_release.cpp",
                 "kind" : 6,
                 "line" : 9,
                 "name" : "press_and_release_c(Rcpp::NumericVector)",
@@ -116,14 +116,14 @@
                 "usr" : "c:@F@press_and_release_c#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#"
             }
         ],
-        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/press_and_release.cpp",
+        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/src/press_and_release.cpp",
         "file_last_write" : 1534497922
     },
     {
         "definitions" : [
             {
                 "column" : 6,
-                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/release.cpp",
+                "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/src/release.cpp",
                 "kind" : 6,
                 "line" : 9,
                 "name" : "release_c(Rcpp::NumericVector)",
@@ -131,7 +131,7 @@
                 "usr" : "c:@F@release_c#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#"
             }
         ],
-        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/release.cpp",
+        "file" : "C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/src/release.cpp",
         "file_last_write" : 1534504347
     }
 ]
