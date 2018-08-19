@@ -1,4 +1,4 @@
-keyboard_value<-read.csv("C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/keyboardvalue.csv")
+keyboard_value<-read.csv(paste0(dirname(getwd()),"/keyboardvalue.csv"))
 devtools::use_data(keyboard_value, internal = TRUE,overwrite = T)
 
 library(roxygen2)

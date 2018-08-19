@@ -1,5 +1,0 @@
-keybd.press('Alt',hold=T)
-keybd.press('tab')
-Sys.sleep(0.1)
-keybd.press('tab')
-keybd.release('Alt')
