@@ -25,15 +25,15 @@ mouse_right_release <- function() {
     invisible(.Call('_KeyboardSimulator_mouse_right_release', PACKAGE = 'KeyboardSimulator'))
 }
 
-press_c <- function(x) {
-    invisible(.Call('_KeyboardSimulator_press_c', PACKAGE = 'KeyboardSimulator', x))
+press_c <- function(x, s, p) {
+    invisible(.Call('_KeyboardSimulator_press_c', PACKAGE = 'KeyboardSimulator', x, s, p))
 }
 
-press_and_release_c <- function(x) {
-    invisible(.Call('_KeyboardSimulator_press_and_release_c', PACKAGE = 'KeyboardSimulator', x))
+press_and_release_c <- function(x, s, p) {
+    invisible(.Call('_KeyboardSimulator_press_and_release_c', PACKAGE = 'KeyboardSimulator', x, s, p))
 }
 
-release_c <- function(x) {
-    invisible(.Call('_KeyboardSimulator_release_c', PACKAGE = 'KeyboardSimulator', x))
+release_c <- function(x, s, p) {
+    invisible(.Call('_KeyboardSimulator_release_c', PACKAGE = 'KeyboardSimulator', x, s, p))
 }
 

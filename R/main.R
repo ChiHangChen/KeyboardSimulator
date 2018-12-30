@@ -35,12 +35,15 @@ keybd.press <- function(button, hold = FALSE) {
   if (any(button_check)) {
     stop(paste0("The 'button' value '", button_str[button_check][1], "' is not supported. Available keys are : ", paste0(as.character(keyboard_value$button), collapse = " ")))
   }
-
-  button_value <- sapply(button_str, function(i) keyboard_value$virt_code[keyboard_value$button == i])
+  
+  idx <- match(button_str, keyboard_value$button)
+  button_virt_code <- keyboard_value[idx, ]$virt_code
+  button_scan_code <- keyboard_value[idx, ]$scan_code
+  button_scan_pref <- keyboard_value[idx, ]$prefix_byte
   if (hold) {
-    press_c(as.vector(button_value))
+    press_c(as.vector(button_virt_code), as.vector(button_scan_code), as.vector(button_scan_pref))
   } else {
-    press_and_release_c(as.vector(button_value))
+    press_and_release_c(as.vector(button_virt_code), as.vector(button_scan_code), as.vector(button_scan_pref))
   }
   
 }
@@ -74,8 +77,11 @@ keybd.release <- function(button) {
     stop(paste0("The 'button' value '", button_str[button_check][1], "' is not supported. Available keys are : ", paste0(as.character(keyboard_value$button), collapse = " ")))
   }
   
-  button_value <- sapply(button_str, function(i) keyboard_value$virt_code[keyboard_value$button == i])
-  release_c(as.vector(button_value))
+  idx <- match(button_str, keyboard_value$button)
+  button_virt_code <- keyboard_value[idx, ]$virt_code
+  button_scan_code <- keyboard_value[idx, ]$scan_code
+  button_scan_pref <- keyboard_value[idx, ]$prefix_byte
+  release_c(as.vector(button_virt_code), as.vector(button_scan_code), as.vector(button_scan_pref))
   
 }
 
