@@ -17,6 +17,8 @@ be released by press the button on phsical keyboard or using \code{\link[Keyboar
 Simulate Keyboard Press
 }
 \examples{
+\dontrun{
+
 ## press single key
 keybd.press('a')
 
@@ -27,4 +29,5 @@ keybd.press('Alt+F4')
 keybd.press('Alt', hold = TRUE)
 keybd.press('F4')
 keybd.release('Alt')
+}
 }

@@ -13,7 +13,10 @@ mouse.release(button = "left")
 Release Held key clicked by \code{\link[KeyboardSimulator]{mouse.click}}
 }
 \examples{
+\dontrun{
+
 ## Click right button
 mouse.click(button = "right", hold = TRUE)
 mouse.release(button = "right")
+}
 }

@@ -15,5 +15,7 @@ mouse.click(button = "left", hold = FALSE)
 Simulate mouse click
 }
 \examples{
+\dontrun{
 mouse.click(button = "left", hold = TRUE)
+}
 }

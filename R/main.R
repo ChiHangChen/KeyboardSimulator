@@ -8,6 +8,8 @@
 #' be released by press the button on phsical keyboard or using \code{\link[KeyboardSimulator]{keybd.release}} function
 #' @export
 #' @examples
+#' \dontrun{
+#' 
 #' ## press single key
 #' keybd.press('a')
 #' 
@@ -18,6 +20,7 @@
 #' keybd.press('Alt', hold = TRUE)
 #' keybd.press('F4')
 #' keybd.release('Alt')
+#' }
 keybd.press <- function(button, hold = FALSE) {
   
   if (!is.character(button)) {
@@ -44,12 +47,15 @@ keybd.press <- function(button, hold = FALSE) {
 #' , uppercase or lowercase are not sensitive.
 #' @export
 #' @examples
+#' \dontrun{
+#' 
 #' ## Move to the third working window
 #' keybd.press('Alt', hold = TRUE)
 #' keybd.press('Tab')
 #' Sys.sleep(0.1)
 #' keybd.press('Tab')
 #' keybd.release('Alt')
+#' }
 keybd.release <- function(button) {
   
   if (!is.character(button)) {
@@ -74,7 +80,9 @@ keybd.release <- function(button) {
 #' @param hold logical. Should the key to be held after click.
 #' @export
 #' @examples
+#' \dontrun{
 #' mouse.click(button = "left", hold = TRUE)
+#' }
 mouse.click <- function(button = "left", hold = FALSE) {
   
   btn <- tolower(button)
@@ -100,9 +108,12 @@ mouse.click <- function(button = "left", hold = FALSE) {
 #' @param button character. The allowed values are "\code{left}" and "\code{right}"
 #' @export
 #' @examples
+#' \dontrun{
+#' 
 #' ## Click right button
 #' mouse.click(button = "right", hold = TRUE)
 #' mouse.release(button = "right")
+#' }
 mouse.release <- function(button = "left") {
   
   btn <- tolower(button)

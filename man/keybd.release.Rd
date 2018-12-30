@@ -14,10 +14,13 @@ keybd.release(button)
 Release Held key Pressed by \code{\link[KeyboardSimulator]{keybd.press}}
 }
 \examples{
+\dontrun{
+
 ## Move to the third working window
 keybd.press('Alt', hold = TRUE)
 keybd.press('Tab')
 Sys.sleep(0.1)
 keybd.press('Tab')
 keybd.release('Alt')
+}
 }
