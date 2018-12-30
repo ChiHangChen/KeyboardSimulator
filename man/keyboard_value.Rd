@@ -4,12 +4,12 @@
 \name{keyboard_value}
 \alias{keyboard_value}
 \title{keyboard_value}
-\format{An object of class \code{data.frame} with 79 rows and 2 columns.}
+\format{An object of class \code{data.frame} with 79 rows and 4 columns.}
 \usage{
 keyboard_value
 }
 \description{
-List of supported keyboard keys, along with their virtual-key and hardware scan codes.
+List of supported keyboard keys, along with their virtual-key and hardware scan codes. A field indicating whether the key is an "extended key" with a \code{0xE0} prefix byte is also included to differentiate between duplicate keys on the keyboard and num pad. For example, while the \code{1} key usually behaves the same as the \code{1} key on the num pad, some applications see these as two distinct keys.
 }
 \details{
 Supported keys:
@@ -95,5 +95,8 @@ Supported keys:
  \item{numlock}
  \item{win}
 }
+}
+\references{
+\href{http://www.philipstorr.id.au/pcbook/book3/scancode.htm}{Hardware Scan Codes}, \href{https://docs.microsoft.com/en-us/windows/desktop/inputdev/virtual-key-codes}{Virtual-Key Codes}
 }
 \keyword{data}
