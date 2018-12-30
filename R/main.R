@@ -10,6 +10,7 @@
 #' , uppercase or lowercase are not sensitive. 
 #' @param hold logical. Should the key to be held after press; if \code{TRUE}, the key can 
 #' be released by press the button on phsical keyboard or using \code{\link[KeyboardSimulator]{keybd.release}} function
+#' @export
 #' @examples
 #' ## press single key
 #' keybd.press('a')
@@ -39,6 +40,7 @@ keybd.press <- function(button,hold=FALSE) {
 #' Release Held key Pressed by \code{\link[KeyboardSimulator]{keybd.press}}
 #' @param button character. The key to be released, can release several keys simultaneously with  \code{+} as separator
 #' , uppercase or lowercase are not sensitive. 
+#' @export
 #' @examples
 #' ## Move to the third working window
 #' keybd.press('Alt',hold=TRUE)
@@ -64,6 +66,7 @@ keybd.release <- function(button) {
 #' Simulate mouse click
 #' @param button character. The allowed values are "\code{left}" and "\code{right}"
 #' @param hold logical. Should the key to be held after click.
+#' @export
 #' @examples
 #' mouse.click(button="left",hold=TRUE)
 mouse.click<-function(button="left",hold=FALSE){
@@ -87,6 +90,7 @@ mouse.click<-function(button="left",hold=FALSE){
 
 #' Release Held key clicked by \code{\link[KeyboardSimulator]{mouse.click}}
 #' @param button character. The allowed values are "\code{left}" and "\code{right}"
+#' @export
 #' @examples
 #' ## Click right button
 #' mouse.click(button="right",hold=TRUE)
