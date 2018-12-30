@@ -12,3 +12,5 @@ LinkingTo: Rcpp
 RoxygenNote: 6.1.0
 Depends: R (>= 2.10)
 OS_type: windows
+URL: https://github.com/ChiHangChen/KeyboardSimulator
+BugReports: https://github.com/ChiHangChen/KeyboardSimulator/issues
