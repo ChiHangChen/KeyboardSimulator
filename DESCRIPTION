@@ -1,11 +1,11 @@
 Package: KeyboardSimulator
 Type: Package
-Title: Simulate Keyboard Press and Mouse Click
+Title: Keyboard and Mouse Input Simulation for Windows OS
 Version: 1.0
-Date: 2018-08-17
+Date: 2019-01-01
 Author: Jim Chen
 Maintainer: Jim Chen <jim71183@gmail.com>
-Description: Control your keyboard and mouse with R code, simulate key press and mouse click.
+Description: Control your keyboard and mouse with R code by simulating key presses and mouse clicks. The input simulation is implemented with the Windows API.
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.0)
 LinkingTo: Rcpp
