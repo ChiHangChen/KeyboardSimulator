@@ -36,7 +36,7 @@ keybd.press <- function(button, hold = FALSE) {
     stop(paste0("The 'button' value '", button_str[button_check][1], "' is not supported. Available keys are : ", paste0(as.character(keyboard_value$button), collapse = " ")))
   }
 
-  button_value <- sapply(button_str, function(i) keyboard_value$value[keyboard_value$button == i])
+  button_value <- sapply(button_str, function(i) keyboard_value$virt_code[keyboard_value$button == i])
   if (hold) {
     press_c(as.vector(button_value))
   } else {
@@ -74,7 +74,7 @@ keybd.release <- function(button) {
     stop(paste0("The 'button' value '", button_str[button_check][1], "' is not supported. Available keys are : ", paste0(as.character(keyboard_value$button), collapse = " ")))
   }
   
-  button_value <- sapply(button_str, function(i) keyboard_value$value[keyboard_value$button == i])
+  button_value <- sapply(button_str, function(i) keyboard_value$virt_code[keyboard_value$button == i])
   release_c(as.vector(button_value))
   
 }
