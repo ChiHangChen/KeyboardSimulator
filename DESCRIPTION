@@ -3,8 +3,8 @@ Type: Package
 Title: Keyboard and Mouse Input Simulation for Windows OS
 Version: 1.0
 Date: 2019-01-01
-Author: Jim Chen
-Maintainer: Jim Chen <jim71183@gmail.com>
+Authors@R: c(person("Jim", "Chen", role = c("aut", "cre"), email = "jim71183@gmail.com"),
+             person("Jeff", "Keller", role = c("aut", "ctb"), email = "github@vtkellers.com"))
 Description: Control your keyboard and mouse with R code by simulating key presses and mouse clicks. The input simulation is implemented with the Windows API.
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.0)
