@@ -14,6 +14,6 @@ Release Held key clicked by \code{\link[KeyboardSimulator]{mouse.click}}
 }
 \examples{
 ## Click right button
-mouse.click(button="right",hold=TRUE)
-mouse.release(button="right")
+mouse.click(button = "right", hold = TRUE)
+mouse.release(button = "right")
 }

@@ -24,7 +24,7 @@ keybd.press('a')
 keybd.press('Alt+F4')
 
 ## press several key using hold
-keybd.press('Alt',hold=TRUE)
+keybd.press('Alt', hold = TRUE)
 keybd.press('F4')
 keybd.release('Alt')
 }

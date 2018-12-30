@@ -15,7 +15,7 @@ Release Held key Pressed by \code{\link[KeyboardSimulator]{keybd.press}}
 }
 \examples{
 ## Move to the third working window
-keybd.press('Alt',hold=TRUE)
+keybd.press('Alt', hold = TRUE)
 keybd.press('Tab')
 Sys.sleep(0.1)
 keybd.press('Tab')

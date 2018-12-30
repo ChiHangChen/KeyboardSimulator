@@ -15,5 +15,5 @@ mouse.click(button = "left", hold = FALSE)
 Simulate mouse click
 }
 \examples{
-mouse.click(button="left",hold=TRUE)
+mouse.click(button = "left", hold = TRUE)
 }
