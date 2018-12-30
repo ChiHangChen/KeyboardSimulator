@@ -1,0 +1,10 @@
+
+KeyboardSimulator 1.1
+----------------------------------------------------------------
+  
+* Implement keyboard scan codes so simulated inputs can be detected by DirectInput applications
+
+KeyboardSimulator 1.0
+----------------------------------------------------------------
+  
+* Initial release
