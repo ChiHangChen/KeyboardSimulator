@@ -2,25 +2,27 @@
 % Please edit documentation in R/main.R
 \name{keybd.release}
 \alias{keybd.release}
-\title{Release Held key Pressed by \code{\link[KeyboardSimulator]{keybd.press}}}
+\title{Simulate Key Release}
 \usage{
 keybd.release(button)
 }
 \arguments{
-\item{button}{character. The key to be released, can release several keys simultaneously with  \code{+} as separator
-, uppercase or lowercase are not sensitive.}
+\item{button}{character. The key release to simulate (not case sensitive).}
 }
 \description{
-Release Held key Pressed by \code{\link[KeyboardSimulator]{keybd.press}}
+Simulates the release of keyboard keys held by \code{\link[KeyboardSimulator]{keybd.press}}. Multiple keys can be released simultaneously by using a \code{+} separator (see Examples).
 }
 \examples{
 \dontrun{
 
-## Move to the third working window
+# Move to the third working window
 keybd.press('Alt', hold = TRUE)
 keybd.press('Tab')
 Sys.sleep(0.1)
 keybd.press('Tab')
 keybd.release('Alt')
 }
+}
+\seealso{
+\code{\link[KeyboardSimulator]{keybd.press}}
 }

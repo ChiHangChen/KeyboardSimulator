@@ -2,21 +2,26 @@
 % Please edit documentation in R/main.R
 \name{mouse.release}
 \alias{mouse.release}
-\title{Release Held key clicked by \code{\link[KeyboardSimulator]{mouse.click}}}
+\title{Simulate Mouse Click Release}
 \usage{
 mouse.release(button = "left")
 }
 \arguments{
-\item{button}{character. The allowed values are "\code{left}" and "\code{right}"}
+\item{button}{character. Allowed values are "\code{left}" and "\code{right}".}
 }
 \description{
-Release Held key clicked by \code{\link[KeyboardSimulator]{mouse.click}}
+Simulates the release of mouse clicks held by \code{\link[KeyboardSimulator]{mouse.click}}.
 }
 \examples{
 \dontrun{
 
-## Click right button
+# right mouse click and hold
 mouse.click(button = "right", hold = TRUE)
+
+# release right click
 mouse.release(button = "right")
 }
+}
+\seealso{
+\code{\link[KeyboardSimulator]{mouse.click}}
 }

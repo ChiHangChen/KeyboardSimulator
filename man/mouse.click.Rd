@@ -2,20 +2,28 @@
 % Please edit documentation in R/main.R
 \name{mouse.click}
 \alias{mouse.click}
-\title{Simulate mouse click}
+\title{Simulate Mouse Clicks}
 \usage{
 mouse.click(button = "left", hold = FALSE)
 }
 \arguments{
-\item{button}{character. The allowed values are "\code{left}" and "\code{right}"}
+\item{button}{character. Allowed values are "\code{left}" and "\code{right}".}
 
-\item{hold}{logical. Should the key to be held after click.}
+\item{hold}{logical. Whether the button should be held down.}
 }
 \description{
-Simulate mouse click
+Simulate left and right mouse clicks.
 }
 \examples{
 \dontrun{
+
+# left mouse click
+mouse.click(button = "left")
+
+# left mouse click and hold
 mouse.click(button = "left", hold = TRUE)
 }
+}
+\seealso{
+\code{\link[KeyboardSimulator]{mouse.release}}
 }
