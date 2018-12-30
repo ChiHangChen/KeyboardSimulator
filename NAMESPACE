@@ -2,6 +2,7 @@
 
 export(keybd.press)
 export(keybd.release)
+export(keyboard_value)
 export(mouse.click)
 export(mouse.release)
 import(Rcpp)
