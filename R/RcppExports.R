@@ -2,38 +2,38 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 mouse_left_click <- function() {
-    invisible(.Call(`_KeyboardSimulator_mouse_left_click`))
+    invisible(.Call('_KeyboardSimulator_mouse_left_click', PACKAGE = 'KeyboardSimulator'))
 }
 
 mouse_left_hold <- function() {
-    invisible(.Call(`_KeyboardSimulator_mouse_left_hold`))
+    invisible(.Call('_KeyboardSimulator_mouse_left_hold', PACKAGE = 'KeyboardSimulator'))
 }
 
 mouse_left_release <- function() {
-    invisible(.Call(`_KeyboardSimulator_mouse_left_release`))
+    invisible(.Call('_KeyboardSimulator_mouse_left_release', PACKAGE = 'KeyboardSimulator'))
 }
 
 mouse_right_click <- function() {
-    invisible(.Call(`_KeyboardSimulator_mouse_right_click`))
+    invisible(.Call('_KeyboardSimulator_mouse_right_click', PACKAGE = 'KeyboardSimulator'))
 }
 
 mouse_right_hold <- function() {
-    invisible(.Call(`_KeyboardSimulator_mouse_right_hold`))
+    invisible(.Call('_KeyboardSimulator_mouse_right_hold', PACKAGE = 'KeyboardSimulator'))
 }
 
 mouse_right_release <- function() {
-    invisible(.Call(`_KeyboardSimulator_mouse_right_release`))
+    invisible(.Call('_KeyboardSimulator_mouse_right_release', PACKAGE = 'KeyboardSimulator'))
 }
 
-press_c <- function(x) {
-    invisible(.Call(`_KeyboardSimulator_press_c`, x))
+press_c <- function(x, s, p) {
+    invisible(.Call('_KeyboardSimulator_press_c', PACKAGE = 'KeyboardSimulator', x, s, p))
 }
 
-press_and_release_c <- function(x) {
-    invisible(.Call(`_KeyboardSimulator_press_and_release_c`, x))
+press_and_release_c <- function(x, s, p) {
+    invisible(.Call('_KeyboardSimulator_press_and_release_c', PACKAGE = 'KeyboardSimulator', x, s, p))
 }
 
-release_c <- function(x) {
-    invisible(.Call(`_KeyboardSimulator_release_c`, x))
+release_c <- function(x, s, p) {
+    invisible(.Call('_KeyboardSimulator_release_c', PACKAGE = 'KeyboardSimulator', x, s, p))
 }
 
