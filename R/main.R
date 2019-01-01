@@ -142,7 +142,6 @@ mouse.click <- function(button = "left", hold = FALSE) {
 #' mouse.release(button = "right")
 #' }
 mouse.release <- function(button = "left") {
-  
   btn <- tolower(button)
   if (btn == "left") {
     mouse_left_release()
@@ -151,5 +150,39 @@ mouse.release <- function(button = "left") {
   } else {
     stop("Argument 'button' should be either 'left' or 'right'.")
   }
-  
+}
+
+#' Move Cursor to Specific Location
+#' 
+#' Move cursor to specific coordinate of screen .
+#' 
+#' @param x numeric. X-axis of screen.
+#' @param y numeric. Y-axis of screen.
+#' @export
+#' @examples
+#' \dontrun{
+#' 
+#' # Move cursor to middle of screen in 1080FHD monitor
+#' mouse.move(x=960,y=540)
+#' }
+mouse.move <- function(x,y) {
+  if(class(x)!="numeric"|class(y)!="numeric"){
+    stop("Argument must be numeric")
+  }else{
+    MouseMove(x,y)
+  }
+}
+
+#' Get Current Cursor Coordinate
+#' 
+#' Get current cursor coordinate of screen .
+#' 
+#' @export
+#' @examples
+#' \dontrun{
+#' 
+#' mouse.get_cursor()
+#' }
+mouse.get_cursor <- function() {
+  get_cursor()
 }
