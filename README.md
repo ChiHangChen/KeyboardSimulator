@@ -202,7 +202,7 @@ keybd.release('Alt')
 * **Get current location of cursor**
 
 ```r
-mouse.get_curse()
+mouse.get_cursor()
 ```
 
 ```
