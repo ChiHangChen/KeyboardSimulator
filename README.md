@@ -4,9 +4,13 @@ Control your keyboard and mouse with R code by simulating key presses and mouse 
 
 # FAQ
 
-**Q: Does `KeyboardSimulator` support operating systems other than Windows?**
+### Does `KeyboardSimulator` support operating systems other than Windows?
 
-A: No, `KeyboardSimulator` is built on top of the [Windows API](https://docs.microsoft.com/en-us/windows/desktop/api/index) and is not compatible with other operating systems.
+No, `KeyboardSimulator` is built on top of the [Windows API](https://docs.microsoft.com/en-us/windows/desktop/api/index) and is not compatible with other operating systems.
+
+### This package doesn't work on my computer! How can I make it work?
+
+Open a GitHub issue and let us know what version of Windows you are using and what keyboard and mouse hardware you have connected.
 
 # Developers
 
