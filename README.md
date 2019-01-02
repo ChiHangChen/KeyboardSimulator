@@ -1,6 +1,3 @@
----
-output: html_document
----
 # **Intorduction to KeyboardSimulator**
 
 `KeyboardSimulator` is a R package that make users simulate keyboard event, cursor movement and mouse click with simple R function.
