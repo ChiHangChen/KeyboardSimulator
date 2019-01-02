@@ -4,10 +4,10 @@
 
 This package provide 6 functions which are developed in C++:
 
-  - `keybd.press()` Simulates keyboard key presses. Multiple keys can be pressed simultaneously by using `+` as separator.
-  - `keybd.release()` Simulates the release of keyboard keys held by `keybd.press`.
+  - `keybd.press()` Simulate keyboard key presses. Multiple keys can be pressed simultaneously by using `+` as separator.
+  - `keybd.release()` Simulate the release of keyboard keys held by `keybd.press`.
   - `mouse.click()` Simulate left and right button of mouse clicks.
-  - `mouse.release()` Simulates the release of mouse button held by `mouse.click`.
+  - `mouse.release()` Simulate the release of mouse button held by `mouse.click`.
   - `mouse.get_cursor()` Get current cursor coordinate of screen.
   - `mouse.move()` Move cursor to specific coordinate of screen.
   
