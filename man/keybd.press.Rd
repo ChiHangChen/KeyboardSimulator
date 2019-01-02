@@ -13,7 +13,7 @@ keybd.press(button, hold = FALSE)
 be released by pressing the phsical key on the keyboard or by using the \code{\link[KeyboardSimulator]{keybd.release}} function.}
 }
 \description{
-Simulates keyboard key presses. Multiple keys can be pressed simultaneously by using \code{+} as separator (see Examples). See \code{\link[KeyboardSimulator]{keyboard_value}} for supported keys.
+Simulate keyboard key presses. Multiple keys can be pressed simultaneously by using \code{+} as separator (see Examples). See \code{\link[KeyboardSimulator]{keyboard_value}} for supported keys.
 }
 \examples{
 \dontrun{

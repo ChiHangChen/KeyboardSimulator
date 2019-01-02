@@ -3,7 +3,7 @@
 
 #' Simulate Key Press
 #' 
-#' Simulates keyboard key presses. Multiple keys can be pressed simultaneously by using \code{+} as separator (see Examples). See \code{\link[KeyboardSimulator]{keyboard_value}} for supported keys.
+#' Simulate keyboard key presses. Multiple keys can be pressed simultaneously by using \code{+} as separator (see Examples). See \code{\link[KeyboardSimulator]{keyboard_value}} for supported keys.
 #' 
 #' @param button character. The key press to simulate (not case sensitive).
 #' @param hold logical. Whether the key should be held down. If \code{TRUE}, the key can 
@@ -50,7 +50,7 @@ keybd.press <- function(button, hold = FALSE) {
 
 #' Simulate Key Release
 #' 
-#' Simulates the release of keyboard keys held by \code{\link[KeyboardSimulator]{keybd.press}}. Multiple keys can be released simultaneously by using a \code{+} separator (see Examples). See \code{\link[KeyboardSimulator]{keyboard_value}} for supported keys.
+#' Simulate the release of keyboard keys held by \code{\link[KeyboardSimulator]{keybd.press}}. Multiple keys can be released simultaneously by using a \code{+} separator (see Examples). See \code{\link[KeyboardSimulator]{keyboard_value}} for supported keys.
 #' 
 #' @param button character. The key release to simulate (not case sensitive).
 #' @export
@@ -127,7 +127,7 @@ mouse.click <- function(button = "left", hold = FALSE) {
 
 #' Simulate Mouse Click Release
 #' 
-#' Simulates the release of mouse button held by \code{\link[KeyboardSimulator]{mouse.click}}.
+#' Simulate the release of mouse button held by \code{\link[KeyboardSimulator]{mouse.click}}.
 #' 
 #' @param button character. Allowed values are "\code{left}" and "\code{right}".
 #' @export

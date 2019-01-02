@@ -10,7 +10,7 @@ mouse.release(button = "left")
 \item{button}{character. Allowed values are "\code{left}" and "\code{right}".}
 }
 \description{
-Simulates the release of mouse button held by \code{\link[KeyboardSimulator]{mouse.click}}.
+Simulate the release of mouse button held by \code{\link[KeyboardSimulator]{mouse.click}}.
 }
 \examples{
 \dontrun{
