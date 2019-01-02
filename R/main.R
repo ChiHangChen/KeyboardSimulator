@@ -3,7 +3,7 @@
 
 #' Simulate Key Press
 #' 
-#' Simulates keyboard key presses. Multiple keys can be pressed simultaneously by using a \code{+} separator (see Examples). See \code{\link[KeyboardSimulator]{keyboard_value}} for supported keys.
+#' Simulates keyboard key presses. Multiple keys can be pressed simultaneously by using \code{+} as separator (see Examples). See \code{\link[KeyboardSimulator]{keyboard_value}} for supported keys.
 #' 
 #' @param button character. The key press to simulate (not case sensitive).
 #' @param hold logical. Whether the key should be held down. If \code{TRUE}, the key can 
