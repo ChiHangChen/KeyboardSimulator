@@ -1,4 +1,9 @@
-KeyboardSimulator 1.1
+KeyboardSimulator 2.0.1
+----------------------------------------------------------------
+  
+* Update README.md file
+
+KeyboardSimulator 2.0
 ----------------------------------------------------------------
   
 * New mouse related function to simulator cursor movement and get cursor coordinate
