@@ -26,13 +26,13 @@ A: No, `KeyboardSimulator` is built on top of the [Windows API](https://docs.mic
 ## **Package Setup**
 
 ```r
-if (!require("devtools")) install.packages("devtools")
-devtools::install_github("ChiHangChen/KeyboardSimulator")
+install.packages("KeyboardSimulator")
 library(KeyboardSimulator)
 ```
 or
 ```r
-install.packages("KeyboardSimulator")
+if (!require("devtools")) install.packages("devtools")
+devtools::install_github("ChiHangChen/KeyboardSimulator")
 library(KeyboardSimulator)
 ```
 
