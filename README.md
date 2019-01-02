@@ -57,7 +57,7 @@ keybd.press("Alt+f4")
 * **Hold keys with argument `hold=TRUE` and use `keybd.release` to release the held key**
 
 ```r
-keybd.press("Alt",hold = TRUE)
+keybd.press("Alt", hold = TRUE)
 keybd.press('Tab')
 keybd.release('Alt')
 ```
