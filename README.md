@@ -86,7 +86,7 @@ mouse.click("right")
 * **Move cursor to the center of screen on 1080FHD monitor**
 
 ```r
-mouse.move(960,540)
+mouse.move(960, 540)
 ```
 
 * **Drag an item to center of screen**
