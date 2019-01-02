@@ -23,7 +23,7 @@ No, `KeyboardSimulator` is built on top of the [Windows API](https://docs.micros
 
 ### This package doesn't work on my computer! How can I make it work?
 
-Open a GitHub issue and let us know what version of Windows you are using and what keyboard and mouse hardware you have connected.
+Open a [GitHub](https://github.com/ChiHangChen/KeyboardSimulator) issue and let us know what version of Windows you are using and what keyboard and mouse hardware you have connected.
 
 ***
 
