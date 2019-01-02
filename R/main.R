@@ -89,7 +89,7 @@ keybd.release <- function(button) {
 
 #' Simulate Mouse Clicks
 #' 
-#' Simulate left and right mouse clicks.
+#' Simulate left and right button of mouse clicks.
 #' 
 #' @param button character. Allowed values are "\code{left}" and "\code{right}".
 #' @param hold logical. Whether the button should be held down.
@@ -127,7 +127,7 @@ mouse.click <- function(button = "left", hold = FALSE) {
 
 #' Simulate Mouse Click Release
 #' 
-#' Simulates the release of mouse clicks held by \code{\link[KeyboardSimulator]{mouse.click}}.
+#' Simulates the release of mouse button held by \code{\link[KeyboardSimulator]{mouse.click}}.
 #' 
 #' @param button character. Allowed values are "\code{left}" and "\code{right}".
 #' @export
