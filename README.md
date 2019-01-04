@@ -1,5 +1,7 @@
 # **Intorduction to KeyboardSimulator**
 
+[![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/KeyboardSimulator)]
+
 `KeyboardSimulator` is a R package that make users simulate keyboard event, cursor movement and mouse click with simple R function.
 
 This package provide 6 functions which are developed in C++:
