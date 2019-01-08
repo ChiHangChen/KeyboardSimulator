@@ -184,5 +184,5 @@ mouse.move <- function(x,y) {
 #' mouse.get_cursor()
 #' }
 mouse.get_cursor <- function() {
-  get_cursor()
+  paste0("mouse.move(",paste0(get_cursor(),collapse = ", "),")")
 }
