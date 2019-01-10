@@ -10,7 +10,7 @@ void MouseMove_loop(NumericVector xaxis_path,NumericVector yaxis_path,double tim
 {
 	int n = xaxis_path.size();
 	for(int i = 0; i < n; ++i) {
-    		SetCursorPos(xaxis_path[i], yaxis_path[i]);
-		Sleep(time_Seg*1000);
+	  SetCursorPos(xaxis_path[i], yaxis_path[i]);
+	  Sleep(time_Seg*1000);
 	}
 }
