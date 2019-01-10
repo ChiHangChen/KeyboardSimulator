@@ -96,6 +96,12 @@ mouse.click("right")
 mouse.move(960, 540)
 ```
 
+* **Move cursor to the center of screen on 1080FHD monitor within 3 seconds**
+
+```r
+mouse.move(960, 540, duration=3)
+```
+
 * **Drag an item to center of screen**
 
 ```r
