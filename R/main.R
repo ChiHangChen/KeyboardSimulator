@@ -183,7 +183,9 @@ mouse.move <- function(x,y,duration=NA,step_ratio=0.02) {
       initial_point<-get_cursor()
       xaxis_path<-seq(initial_point[1],x,by=(x-initial_point[1])*step_ratio)[-1]
       yaxis_path<-seq(initial_point[2],y,by=(y-initial_point[2])*step_ratio)[-1]
+      s<-Sys.time()
       MouseMove_loop(xaxis_path,yaxis_path,time_seg)
+      print(paste0("Cost ",round(as.numeric(difftime(Sys.time(),s,units="secs")),3)," seconds"))
     }
   }else{
     MouseMove(x,y)
