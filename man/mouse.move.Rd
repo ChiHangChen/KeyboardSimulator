@@ -4,12 +4,16 @@
 \alias{mouse.move}
 \title{Move Cursor to Specific Location}
 \usage{
-mouse.move(x, y)
+mouse.move(x, y, duration = NA, step_ratio = 0.02)
 }
 \arguments{
 \item{x}{numeric. X-axis of screen.}
 
 \item{y}{numeric. Y-axis of screen.}
+
+\item{duration}{numeric. Cursor movement time, in seconds.}
+
+\item{step_ratio}{numeric. Ratio of total distance in each step, only available when \code{duration} is not \code{NA}.}
 }
 \description{
 Move cursor to specific coordinate of screen .

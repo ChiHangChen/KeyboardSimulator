@@ -33,6 +33,10 @@ MouseMove <- function(x, y) {
     invisible(.Call('_KeyboardSimulator_MouseMove', PACKAGE = 'KeyboardSimulator', x, y))
 }
 
+MouseMove_loop <- function(xaxis_path, yaxis_path, time_Seg) {
+    invisible(.Call('_KeyboardSimulator_MouseMove_loop', PACKAGE = 'KeyboardSimulator', xaxis_path, yaxis_path, time_Seg))
+}
+
 press_c <- function(x, s, p) {
     invisible(.Call('_KeyboardSimulator_press_c', PACKAGE = 'KeyboardSimulator', x, s, p))
 }

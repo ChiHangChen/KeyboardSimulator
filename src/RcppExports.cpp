@@ -80,6 +80,18 @@ BEGIN_RCPP
     return R_NilValue;
 END_RCPP
 }
+// MouseMove_loop
+void MouseMove_loop(NumericVector xaxis_path, NumericVector yaxis_path, double time_Seg);
+RcppExport SEXP _KeyboardSimulator_MouseMove_loop(SEXP xaxis_pathSEXP, SEXP yaxis_pathSEXP, SEXP time_SegSEXP) {
+BEGIN_RCPP
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< NumericVector >::type xaxis_path(xaxis_pathSEXP);
+    Rcpp::traits::input_parameter< NumericVector >::type yaxis_path(yaxis_pathSEXP);
+    Rcpp::traits::input_parameter< double >::type time_Seg(time_SegSEXP);
+    MouseMove_loop(xaxis_path, yaxis_path, time_Seg);
+    return R_NilValue;
+END_RCPP
+}
 // press_c
 void press_c(Rcpp::NumericVector x, Rcpp::NumericVector s, Rcpp::LogicalVector p);
 RcppExport SEXP _KeyboardSimulator_press_c(SEXP xSEXP, SEXP sSEXP, SEXP pSEXP) {
@@ -126,6 +138,7 @@ static const R_CallMethodDef CallEntries[] = {
     {"_KeyboardSimulator_mouse_right_hold", (DL_FUNC) &_KeyboardSimulator_mouse_right_hold, 0},
     {"_KeyboardSimulator_mouse_right_release", (DL_FUNC) &_KeyboardSimulator_mouse_right_release, 0},
     {"_KeyboardSimulator_MouseMove", (DL_FUNC) &_KeyboardSimulator_MouseMove, 2},
+    {"_KeyboardSimulator_MouseMove_loop", (DL_FUNC) &_KeyboardSimulator_MouseMove_loop, 3},
     {"_KeyboardSimulator_press_c", (DL_FUNC) &_KeyboardSimulator_press_c, 3},
     {"_KeyboardSimulator_press_and_release_c", (DL_FUNC) &_KeyboardSimulator_press_and_release_c, 3},
     {"_KeyboardSimulator_release_c", (DL_FUNC) &_KeyboardSimulator_release_c, 3},

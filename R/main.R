@@ -158,6 +158,8 @@ mouse.release <- function(button = "left") {
 #' 
 #' @param x numeric. X-axis of screen.
 #' @param y numeric. Y-axis of screen.
+#' @param duration numeric. Cursor movement time, in seconds.
+#' @param step_ratio numeric. Ratio of total distance in each step, only available when \code{duration} is not \code{NA}.
 #' @export
 #' @examples
 #' \dontrun{
@@ -165,9 +167,21 @@ mouse.release <- function(button = "left") {
 #' # Move cursor to middle of screen in 1080FHD monitor
 #' mouse.move(x=960,y=540)
 #' }
-mouse.move <- function(x,y) {
+mouse.move <- function(x,y,duration=NA,step_ratio=0.02) {
   if(class(x)!="numeric"|class(y)!="numeric"){
     stop("Argument must be numeric")
+  }else if(!is.na(duration)){
+    if(!is.numeric(duration)){
+      stop("Argument must be numeric")
+    }else if(class(step_ratio)!="numeric"){
+      stop("Argument must be numeric")
+    }else{
+      time_seg<-duration*step_ratio
+      initial_point<-get_cursor()
+      xaxis_path<-seq(initial_point[1],x,by=(x-initial_point[1])*step_ratio)[-1]
+      yaxis_path<-seq(initial_point[2],y,by=(y-initial_point[2])*step_ratio)[-1]
+      MouseMove_loop(xaxis_path,yaxis_path,time_seg)
+    }
   }else{
     MouseMove(x,y)
   }

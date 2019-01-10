@@ -10,4 +10,3 @@ void MouseMove(int x, int y)
 {
     SetCursorPos(x, y);
 }
-

@@ -1,3 +1,8 @@
+KeyboardSimulator 2.1.0
+----------------------------------------------------------------
+  
+* Add argument `duration` and `step_ratio` in mouse.move function
+
 KeyboardSimulator 2.0.1
 ----------------------------------------------------------------
   
