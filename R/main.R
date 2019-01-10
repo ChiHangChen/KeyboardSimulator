@@ -166,6 +166,9 @@ mouse.release <- function(button = "left") {
 #' 
 #' # Move cursor to middle of screen in 1080FHD monitor
 #' mouse.move(x=960,y=540)
+#' 
+#' # Move cursor to middle of screen in 1080FHD monitor within 3 seconds
+#' mouse.move(x=960,y=540,duration=3)
 #' }
 mouse.move <- function(x,y,duration=NA,step_ratio=0.02) {
   if(class(x)!="numeric"|class(y)!="numeric"){

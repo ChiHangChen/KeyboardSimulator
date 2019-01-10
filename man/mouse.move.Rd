@@ -23,5 +23,8 @@ Move cursor to specific coordinate of screen .
 
 # Move cursor to middle of screen in 1080FHD monitor
 mouse.move(x=960,y=540)
+
+# Move cursor to middle of screen in 1080FHD monitor within 3 seconds
+mouse.move(x=960,y=540,duration=3)
 }
 }
