@@ -177,12 +177,19 @@ mouse.move <- function(x,y) {
 #' 
 #' Get current cursor coordinate of screen .
 #' 
+#' @param print logical. return character like "mouse.move(14, 64)"
 #' @export
 #' @examples
 #' \dontrun{
 #' 
 #' mouse.get_cursor()
 #' }
-mouse.get_cursor <- function() {
-  paste0("mouse.move(",paste0(get_cursor(),collapse = ", "),")")
+mouse.get_cursor <- function(print = FALSE) {
+  cursor <- get_cursor()
+  if (print) {
+    cursor <- cursor
+  } else {
+    cursor <- paste0("mouse.move(",paste0(cursor, collapse = ", "),")")
+  }
+  return(cursor)
 }
