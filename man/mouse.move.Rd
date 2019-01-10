@@ -4,7 +4,7 @@
 \alias{mouse.move}
 \title{Move Cursor to Specific Location}
 \usage{
-mouse.move(x, y, duration = NA, step_ratio = 0.02)
+mouse.move(x, y, duration = NA, step_ratio = 0.01)
 }
 \arguments{
 \item{x}{numeric. X-axis of screen.}
