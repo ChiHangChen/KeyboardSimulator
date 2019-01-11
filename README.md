@@ -1,4 +1,4 @@
-# **Intorduction to KeyboardSimulator**
+# **Intrduction to KeyboardSimulator**
 
 ![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/KeyboardSimulator)
 ![CRAN\_Status\_Badge](https://cranlogs.r-pkg.org/badges/grand-total/KeyboardSimulator)
