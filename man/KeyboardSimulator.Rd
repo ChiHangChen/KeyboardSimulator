@@ -3,7 +3,6 @@
 \docType{package}
 \name{KeyboardSimulator}
 \alias{KeyboardSimulator}
-\alias{KeyboardSimulator-package}
 \title{Keyboard and Mouse Input Simulation for Windows OS}
 \description{
 Control your keyboard and mouse with R code by simulating key presses and mouse clicks. The input simulation is implemented with the Windows API.

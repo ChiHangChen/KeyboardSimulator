@@ -11,7 +11,7 @@ mouse.move(x, y, duration = NA, step_ratio = 0.01)
 
 \item{y}{numeric. Y-axis of screen.}
 
-\item{duration}{numeric. Cursor movement time, in seconds.}
+\item{duration}{numeric. Cursor movement time in seconds, there might be some delay on different computer.}
 
 \item{step_ratio}{numeric. Ratio of total distance in each step, only available when \code{duration} is not \code{NA}.}
 }

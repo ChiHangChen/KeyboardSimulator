@@ -1,3 +1,8 @@
+KeyboardSimulator 2.1.1
+----------------------------------------------------------------
+
+* Remove print processing time in console when using mouse.move function with argument `duration`
+
 KeyboardSimulator 2.1.0
 ----------------------------------------------------------------
   

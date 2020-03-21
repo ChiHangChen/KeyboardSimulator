@@ -4,7 +4,9 @@
 \name{keyboard_value}
 \alias{keyboard_value}
 \title{keyboard_value}
-\format{An object of class \code{data.frame} with 79 rows and 4 columns.}
+\format{
+An object of class \code{data.frame} with 79 rows and 4 columns.
+}
 \usage{
 keyboard_value
 }

@@ -158,7 +158,7 @@ mouse.release <- function(button = "left") {
 #' 
 #' @param x numeric. X-axis of screen.
 #' @param y numeric. Y-axis of screen.
-#' @param duration numeric. Cursor movement time, in seconds.
+#' @param duration numeric. Cursor movement time in seconds, there might be some delay on different computer.
 #' @param step_ratio numeric. Ratio of total distance in each step, only available when \code{duration} is not \code{NA}.
 #' @export
 #' @examples
@@ -183,9 +183,7 @@ mouse.move <- function(x,y,duration=NA,step_ratio=0.01) {
       initial_point<-get_cursor()
       xaxis_path<-seq(initial_point[1],x,by=(x-initial_point[1])*step_ratio)[-1]
       yaxis_path<-seq(initial_point[2],y,by=(y-initial_point[2])*step_ratio)[-1]
-      s<-Sys.time()
       MouseMove_loop(xaxis_path,yaxis_path,time_seg)
-      cat(paste0("Cost ",round(as.numeric(difftime(Sys.time(),s,units="secs")),3)," seconds"))
     }
   }else{
     MouseMove(x,y)
