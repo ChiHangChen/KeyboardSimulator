@@ -84,6 +84,7 @@
 #'  \item{del}
 #'  \item{numlock}
 #'  \item{win}
+#'  \item{/?}
 #' }
 #'
 #' @docType data
@@ -170,7 +171,10 @@ keyboard_value <- list(
   list(button = "space",     virt_code = 0x20, scan_code = 0x39, prefix_byte = FALSE),
   list(button = "del",       virt_code = 0x2E, scan_code = 0x53, prefix_byte = TRUE),
   list(button = "numlock",   virt_code = 0x90, scan_code = 0x45, prefix_byte = FALSE),
-  list(button = "win",       virt_code = 0x5B, scan_code = 0x5B, prefix_byte = TRUE)
+  list(button = "win",       virt_code = 0x5B, scan_code = 0x5B, prefix_byte = TRUE),
+  list(button = "/",         virt_code = 0xBF, scan_code = 0x35, prefix_byte = FALSE),
+  list(button = "?",         virt_code = 0xBF, scan_code = 0x35, prefix_byte = FALSE),
+  list(button = ".",         virt_code = 0xBE, scan_code = 0x34, prefix_byte = FALSE)
 )
 
 # Convert to a data.frame
