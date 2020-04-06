@@ -2,6 +2,7 @@
 
 export(keybd.press)
 export(keybd.release)
+export(keybd.type_string)
 export(keyboard_value)
 export(mouse.click)
 export(mouse.get_cursor)

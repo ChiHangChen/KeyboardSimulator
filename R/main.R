@@ -24,26 +24,40 @@
 #' keybd.press('F4')
 #' keybd.release('Alt')
 #' }
+
 keybd.press <- function(button, hold = FALSE) {
   
   if (!is.character(button)) {
     stop("Argument 'button' must be a character string.")
   }
   
-  button_str <- sapply(strsplit(button, "\\+")[[1]], FUN = tolower)
-  button_check <- !button_str %in% keyboard_value$button
-  if (any(button_check)) {
-    stop(paste0("The 'button' value '", button_str[button_check][1], "' is not supported. Available keys are : ", paste0(as.character(keyboard_value$button), collapse = " ")))
+  raw_button_str <- strsplit(button, "\\+")[[1]]
+  button_str <- c()
+  for(i in raw_button_str){
+    if(i %in% keyboard_value$button){
+      if(keyboard_value[keyboard_value$button==i,"shift"]){
+        warning(paste0("Button '",i,"' will be treated as lowercase. Use 'keybd.type_string' for uppercase keyboard simulation."))
+      }
+      button_str <- c(button_str, tolower(i))
+    }else{
+      if(tolower(i) %in% keyboard_value$button){
+        button_str <- c(button_str, tolower(i))
+      }else{
+        stop(paste0("The 'button' value '", i, "' is not supported. Available keys are : ", paste0(as.character(keyboard_value$button), collapse = " ")))
+      }
+    }
   }
   
-  idx <- match(button_str, keyboard_value$button)
-  button_virt_code <- keyboard_value[idx, ]$virt_code
-  button_scan_code <- keyboard_value[idx, ]$scan_code
-  button_scan_pref <- keyboard_value[idx, ]$prefix_byte
+  kv <- keyboard_value[match(button_str, keyboard_value$button), ]
+  for(i in 1:length(kv$shift)){
+    if(kv$shift[i]){
+      warning(paste0("Button '",kv$button[i],"' will be treated as lowercase. Use 'keybd.type_string' for uppercase keyboard simulation."))
+    }
+  }
   if (hold) {
-    press_c(as.vector(button_virt_code), as.vector(button_scan_code), as.vector(button_scan_pref))
+    press_c(kv$virt_code, kv$scan_code, kv$prefix_byte)
   } else {
-    press_and_release_c(as.vector(button_virt_code), as.vector(button_scan_code), as.vector(button_scan_pref))
+    press_and_release_c(kv$virt_code, kv$scan_code, kv$prefix_byte)
   }
   
 }
@@ -71,18 +85,57 @@ keybd.release <- function(button) {
     stop("Argument 'button' must be a character string.")
   }
   
-  button_str <- sapply(strsplit(button, "\\+")[[1]], FUN = tolower)
+  raw_button_str <- strsplit(button, "\\+")[[1]]
+  button_str <- c()
+  for(i in raw_button_str){
+    if(i %in% keyboard_value$button){
+      if(keyboard_value[keyboard_value$button==i,"shift"]){
+        warning(paste0("Button '",i,"' will be treated as lowercase. Use 'keybd.type_string' for uppercase keyboard simulation."))
+      }
+      button_str <- c(button_str, tolower(i))
+    }else{
+      if(tolower(i) %in% keyboard_value$button){
+        button_str <- c(button_str, tolower(i))
+      }else{
+        stop(paste0("The 'button' value '", i, "' is not supported. Available keys are : ", paste0(as.character(keyboard_value$button), collapse = " ")))
+      }
+    }
+  }
+  
+  kv <- keyboard_value[match(button_str, keyboard_value$button), ]
+  release_c(kv$virt_code, kv$scan_code, kv$prefix_byte)
+  
+}
+
+#' Type a raw string
+#' 
+#' Type a raw string base on a given string.
+#' 
+#' @param string character. The string expected to output (case sensitive).
+#' @export
+#' @examples
+#' \dontrun{
+#' 
+#' # Type 'Hello world!'
+#' keybd.type_string("Hello world!")
+#' }
+keybd.type_string <- function(string) {
+  if (class(string) != 'character') stop("Argument 'string' must be a character string.")
+  
+  button_str <- strsplit(string,"")[[1]]
   button_check <- !button_str %in% keyboard_value$button
   if (any(button_check)) {
     stop(paste0("The 'button' value '", button_str[button_check][1], "' is not supported. Available keys are : ", paste0(as.character(keyboard_value$button), collapse = " ")))
   }
-  
-  idx <- match(button_str, keyboard_value$button)
-  button_virt_code <- keyboard_value[idx, ]$virt_code
-  button_scan_code <- keyboard_value[idx, ]$scan_code
-  button_scan_pref <- keyboard_value[idx, ]$prefix_byte
-  release_c(as.vector(button_virt_code), as.vector(button_scan_code), as.vector(button_scan_pref))
-  
+  kv <- keyboard_value[match(button_str, keyboard_value$button), ]
+  for(i in 1:nrow(kv)){
+    if(kv[i,"shift"]){
+      combine_df <- rbind(keyboard_value[88,],kv[i,])
+      press_and_release_c(combine_df$virt_code, combine_df$scan_code, combine_df$prefix_byte)
+    }else{
+      press_and_release_c(kv[i,"virt_code"], kv[i,"scan_code"], kv[i,"prefix_byte"])
+    }
+  }
 }
 
 # Mouse -------------------------------------------------------------------
