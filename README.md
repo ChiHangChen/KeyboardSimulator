@@ -1,6 +1,6 @@
 # **Introduction to KeyboardSimulator**
 
-![CRAN](https://img.shields.io/badge/CRAN-2.2.0-brightgreen)
+![CRAN](https://img.shields.io/badge/CRAN-2.3.0-brightgreen)
 ![CRAN\_Status\_Badge](https://cranlogs.r-pkg.org/badges/grand-total/KeyboardSimulator)
 
 `KeyboardSimulator` is a package for R language that make users simulate keyboard event, cursor movement and mouse click with simple R function.
@@ -9,6 +9,7 @@ This package provide 6 functions which are developed in C++:
 
   - `keybd.press()` Simulate keyboard key presses. Multiple keys can be pressed simultaneously by using `+` as separator.
   - `keybd.release()` Simulate the release of keyboard keys held by `keybd.press`.
+  - `keybd.type_string()` Type a string with simulated keyboard input.
   - `mouse.click()` Simulate left and right button of mouse clicks.
   - `mouse.release()` Simulate the release of mouse button held by `mouse.click`.
   - `mouse.get_cursor()` Get current cursor coordinate of screen.
