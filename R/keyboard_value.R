@@ -116,7 +116,7 @@
 #'  \item{@}
 #'  \item{#}
 #'  \item{$}
-#'  \item{%}
+#'  \item{\%}
 #'  \item{^}
 #'  \item{&}
 #'  \item{*}
@@ -130,7 +130,7 @@
 #'  \item{\{}
 #'  \item{]}
 #'  \item{\}}
-#'  \item{\}
+#'  \item{\\}
 #'  \item{|}
 #'  \item{;}
 #'  \item{:}
@@ -142,8 +142,7 @@
 #'  \item{>}
 #'  \item{/}
 #'  \item{?}
-#'  
-#' }
+#'  }
 #'
 #' @docType data
 #' @export
@@ -257,7 +256,6 @@ keyboard_value <- list(
   list(button = "del",       virt_code = 0x2E, scan_code = 0x53, prefix_byte = TRUE, shift = FALSE),
   list(button = "numlock",   virt_code = 0x90, scan_code = 0x45, prefix_byte = FALSE, shift = FALSE),
   list(button = "win",       virt_code = 0x5B, scan_code = 0x5B, prefix_byte = TRUE, shift = FALSE),
-  
   list(button = "`",         virt_code = 0xC0, scan_code = 0x02, prefix_byte = FALSE, shift = FALSE),
   list(button = "~",         virt_code = 0xC0, scan_code = 0x02, prefix_byte = FALSE, shift = TRUE),
   list(button = "!",         virt_code = 0x31, scan_code = 0x02, prefix_byte = FALSE, shift = TRUE),
@@ -274,14 +272,12 @@ keyboard_value <- list(
   list(button = "_",         virt_code = 0xBD, scan_code = 0xBC, prefix_byte = FALSE, shift = TRUE),
   list(button = "+",         virt_code = 0xBB, scan_code = 0x0D, prefix_byte = FALSE, shift = TRUE),
   list(button = "=",         virt_code = 0xBB, scan_code = 0x0D, prefix_byte = FALSE, shift = FALSE),
-  
   list(button = "[",         virt_code = 0xDB, scan_code = 0x1A, prefix_byte = FALSE, shift = FALSE),
   list(button = "{",         virt_code = 0xDB, scan_code = 0x1A, prefix_byte = FALSE, shift = TRUE),
   list(button = "]",         virt_code = 0xDD, scan_code = 0x1B, prefix_byte = FALSE, shift = FALSE),
   list(button = "}",         virt_code = 0xDD, scan_code = 0x1B, prefix_byte = FALSE, shift = TRUE),
   list(button = "\\",        virt_code = 0xDC, scan_code = 0x2B, prefix_byte = FALSE, shift = FALSE),
   list(button = "|",         virt_code = 0xDC, scan_code = 0x2B, prefix_byte = FALSE, shift = TRUE),
-  
   list(button = ";",         virt_code = 0xBA, scan_code = 0xBE, prefix_byte = FALSE, shift = FALSE),
   list(button = ":",         virt_code = 0xBA, scan_code = 0xBE, prefix_byte = FALSE, shift = TRUE),
   list(button = "'",         virt_code = 0xDE, scan_code = 0x28, prefix_byte = FALSE, shift = FALSE),
