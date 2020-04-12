@@ -1,8 +1,8 @@
 KeyboardSimulator 2.3.0
 ----------------------------------------------------------------
 
-* Add new multiple keys.
-* Add new function "keybd.type_string""
+* Support more keys.
+* Add new function "keybd.type_string"
 * Tidy up code in "keybd.press" and "keybd.release"
 
 KeyboardSimulator 2.2.0

@@ -36,6 +36,7 @@ keybd.press <- function(button, hold = FALSE) {
     }
     button_str <- c(button_str, tolower(i))
   }
+  kv <- keyboard_value[match(button_str, keyboard_value$button), ]
   if (hold) {
     press_c(kv$virt_code, kv$scan_code, kv$prefix_byte)
   } else {
