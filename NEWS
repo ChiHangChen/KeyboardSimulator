@@ -1,3 +1,8 @@
+KeyboardSimulator 2.5.1
+----------------------------------------------------------------
+
+* Fix bug of "mouse.move" when x or y axis doesn't change
+
 KeyboardSimulator 2.5.0
 ----------------------------------------------------------------
 

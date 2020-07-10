@@ -8,3 +8,4 @@ src/*.so
 src/*.dll
 packrat/lib*/
 packrat/src/
+src-i386/

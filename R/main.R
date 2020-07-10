@@ -199,11 +199,25 @@ mouse.move <- function(x,y,duration=NA,step_ratio=0.01) {
     }else if(class(step_ratio)!="numeric"){
       stop("Argument must be numeric")
     }else{
-      time_seg<-duration*step_ratio
+	  time_seg<-duration*step_ratio
       initial_point<-get_cursor()
-      xaxis_path<-seq(initial_point[1],x,by=(x-initial_point[1])*step_ratio)[-1]
-      yaxis_path<-seq(initial_point[2],y,by=(y-initial_point[2])*step_ratio)[-1]
-      MouseMove_loop(xaxis_path,yaxis_path,time_seg)
+	  
+	  if(x==initial_point[1] & y==initial_point[2]){
+	  }else{
+	    if(x!=initial_point[1]){
+	      xaxis_path<-seq(initial_point[1],x,by=(x-initial_point[1])*step_ratio)[-1]
+	    }
+	    if(y!=initial_point[2]){
+	      yaxis_path<-seq(initial_point[2],y,by=(y-initial_point[2])*step_ratio)[-1]
+	    }
+	    if(x==initial_point[1]){
+	      xaxis_path<-rep(initial_point[1],length(yaxis_path))
+	    }
+	    if(y==initial_point[2]){
+	      yaxis_path<-rep(initial_point[2],length(xaxis_path))
+	    }
+		MouseMove_loop(xaxis_path,yaxis_path,time_seg)
+	  }
     }
   }else{
     MouseMove(x,y)

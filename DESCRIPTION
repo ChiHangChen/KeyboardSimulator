@@ -1,7 +1,7 @@
 Package: KeyboardSimulator
 Type: Package
 Title: Keyboard and Mouse Input Simulation for Windows OS
-Version: 2.5.0
+Version: 2.5.1
 Date: 2020-04-12
 Authors@R: c(person("Jim", "Chen", role = c("aut", "cre"), email = "jim71183@gmail.com"),
              person("Jeff", "Keller", role = c("aut", "ctb"), email = "github@vtkellers.com"),
