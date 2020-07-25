@@ -42,6 +42,33 @@ BEGIN_RCPP
     return R_NilValue;
 END_RCPP
 }
+// mouse_middle_click
+void mouse_middle_click();
+RcppExport SEXP _KeyboardSimulator_mouse_middle_click() {
+BEGIN_RCPP
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    mouse_middle_click();
+    return R_NilValue;
+END_RCPP
+}
+// mouse_middle_hold
+void mouse_middle_hold();
+RcppExport SEXP _KeyboardSimulator_mouse_middle_hold() {
+BEGIN_RCPP
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    mouse_middle_hold();
+    return R_NilValue;
+END_RCPP
+}
+// mouse_middle_release
+void mouse_middle_release();
+RcppExport SEXP _KeyboardSimulator_mouse_middle_release() {
+BEGIN_RCPP
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    mouse_middle_release();
+    return R_NilValue;
+END_RCPP
+}
 // mouse_right_click
 void mouse_right_click();
 RcppExport SEXP _KeyboardSimulator_mouse_right_click() {
@@ -134,6 +161,9 @@ static const R_CallMethodDef CallEntries[] = {
     {"_KeyboardSimulator_mouse_left_click", (DL_FUNC) &_KeyboardSimulator_mouse_left_click, 0},
     {"_KeyboardSimulator_mouse_left_hold", (DL_FUNC) &_KeyboardSimulator_mouse_left_hold, 0},
     {"_KeyboardSimulator_mouse_left_release", (DL_FUNC) &_KeyboardSimulator_mouse_left_release, 0},
+    {"_KeyboardSimulator_mouse_middle_click", (DL_FUNC) &_KeyboardSimulator_mouse_middle_click, 0},
+    {"_KeyboardSimulator_mouse_middle_hold", (DL_FUNC) &_KeyboardSimulator_mouse_middle_hold, 0},
+    {"_KeyboardSimulator_mouse_middle_release", (DL_FUNC) &_KeyboardSimulator_mouse_middle_release, 0},
     {"_KeyboardSimulator_mouse_right_click", (DL_FUNC) &_KeyboardSimulator_mouse_right_click, 0},
     {"_KeyboardSimulator_mouse_right_hold", (DL_FUNC) &_KeyboardSimulator_mouse_right_hold, 0},
     {"_KeyboardSimulator_mouse_right_release", (DL_FUNC) &_KeyboardSimulator_mouse_right_release, 0},

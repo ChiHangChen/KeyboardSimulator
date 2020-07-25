@@ -11,7 +11,7 @@ Description: Control your keyboard and mouse with R code by simulating key press
 License: GPL (>= 2) | file LICENSE
 Imports: Rcpp (>= 1.0.0)
 LinkingTo: Rcpp
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1
 Encoding: UTF-8
 Depends: R (>= 2.10)
 OS_type: windows
