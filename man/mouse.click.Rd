@@ -12,7 +12,7 @@ mouse.click(button = "left", hold = FALSE)
 \item{hold}{logical. Whether the button should be held down.}
 }
 \description{
-Simulate left and right mouse clicks.
+Simulate left and right button of mouse clicks.
 }
 \examples{
 \dontrun{

@@ -4,7 +4,9 @@
 \name{keyboard_value}
 \alias{keyboard_value}
 \title{keyboard_value}
-\format{An object of class \code{data.frame} with 79 rows and 4 columns.}
+\format{
+An object of class \code{data.frame} with 137 rows and 5 columns.
+}
 \usage{
 keyboard_value
 }
@@ -41,6 +43,32 @@ Supported keys:
  \item{x}
  \item{y}
  \item{z}
+ \item{A}
+ \item{B}
+ \item{C}
+ \item{D}
+ \item{E}
+ \item{F}
+ \item{G}
+ \item{H}
+ \item{I}
+ \item{J}
+ \item{K}
+ \item{L}
+ \item{M}
+ \item{N}
+ \item{O}
+ \item{P}
+ \item{Q}
+ \item{R}
+ \item{S}
+ \item{T}
+ \item{U}
+ \item{V}
+ \item{W}
+ \item{X}
+ \item{Y}
+ \item{Z}
  \item{0}
  \item{1}
  \item{2}
@@ -94,7 +122,39 @@ Supported keys:
  \item{del}
  \item{numlock}
  \item{win}
-}
+ \item{`}
+ \item{~}
+ \item{!}
+ \item{@}
+ \item{#}
+ \item{$}
+ \item{\%}
+ \item{^}
+ \item{&}
+ \item{*}
+ \item{(}
+ \item{)}
+ \item{-}
+ \item{_}
+ \item{+}
+ \item{=}
+ \item{[}
+ \item{\{}
+ \item{]}
+ \item{\}}
+ \item{\\}
+ \item{|}
+ \item{;}
+ \item{:}
+ \item{'}
+ \item{"}
+ \item{,}
+ \item{<}
+ \item{.}
+ \item{>}
+ \item{/}
+ \item{?}
+ }
 }
 \references{
 \href{http://www.philipstorr.id.au/pcbook/book3/scancode.htm}{Hardware Scan Codes}, \href{https://docs.microsoft.com/en-us/windows/desktop/inputdev/virtual-key-codes}{Virtual-Key Codes}

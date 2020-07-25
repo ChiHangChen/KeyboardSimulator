@@ -10,7 +10,7 @@ keybd.release(button)
 \item{button}{character. The key release to simulate (not case sensitive).}
 }
 \description{
-Simulates the release of keyboard keys held by \code{\link[KeyboardSimulator]{keybd.press}}. Multiple keys can be released simultaneously by using a \code{+} separator (see Examples). See \code{\link[KeyboardSimulator]{keyboard_value}} for supported keys.
+Simulate the release of keyboard keys held by \code{\link[KeyboardSimulator]{keybd.press}}. Multiple keys can be released simultaneously by using a \code{+} separator (see Examples). See \code{\link[KeyboardSimulator]{keyboard_value}} for supported keys.
 }
 \examples{
 \dontrun{

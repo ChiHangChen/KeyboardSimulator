@@ -1,3 +1,39 @@
+KeyboardSimulator 2.5.1
+----------------------------------------------------------------
+
+* Fix bug of "mouse.move" when x or y axis doesn't change
+
+KeyboardSimulator 2.5.0
+----------------------------------------------------------------
+
+* Support more keys.
+* Add new function "keybd.type_string"
+* Tidy up code in "keybd.press" and "keybd.release"
+
+KeyboardSimulator 2.2.0
+----------------------------------------------------------------
+
+* Add new key "." and "/?"
+
+KeyboardSimulator 2.1.1
+----------------------------------------------------------------
+
+* Remove print processing time in console when using mouse.move function with argument `duration`
+
+KeyboardSimulator 2.1.0
+----------------------------------------------------------------
+  
+* Add argument `duration` and `step_ratio` in mouse.move function
+
+KeyboardSimulator 2.0.1
+----------------------------------------------------------------
+  
+* Update README.md file
+
+KeyboardSimulator 2.0
+----------------------------------------------------------------
+  
+* New mouse related function to simulator cursor movement and get cursor coordinate
 
 KeyboardSimulator 1.1
 ----------------------------------------------------------------
