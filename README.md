@@ -1,7 +1,7 @@
 <p align="center">
   <img src="icon/icon.png" width = "128" height = "128" border="5">
   <br>
-  <em><font size="1">Icons made by Freepik from www.flaticon.com</font></em>
+  <em><font size="0.2">Icons made by Freepik from www.flaticon.com</font></em>
 </p>
 
 
