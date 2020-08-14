@@ -1,7 +1,7 @@
 <p align="center">
   <img src="icon/icon.png" width = "128" height = "128" border="5">
   <br>
-  <em><div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></em>
+  <em><font size="1">Icons made by Freepik from www.flaticon.com</font></em>
 </p>
 
 
