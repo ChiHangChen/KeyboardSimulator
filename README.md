@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="icon/icon.png" width = "512" height = "512" border="5">
+</p>
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
 # **Introduction to KeyboardSimulator**
 
 ![CRAN](https://img.shields.io/badge/CRAN-2.5.0-brightgreen)
