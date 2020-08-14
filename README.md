@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="icon/icon.png" width = "128" height = "128" border="5">
-</p>
-
-<p style="text-align: center;">
-  <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+  [<img src="icon/icon.png" width = "128" height = "128" border="5">](https://www.flaticon.com/free-icon/keyboard_2694878?term=keyboard&page=1&position=93#)
 </p>
 
 # **Introduction to KeyboardSimulator**
