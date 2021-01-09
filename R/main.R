@@ -112,9 +112,9 @@ keybd.type_string <- function(string) {
 
 #' Simulate Mouse Clicks
 #' 
-#' Simulate left and right button of mouse clicks.
+#' Simulate left, right, and middle mouse clicks.
 #' 
-#' @param button character. Allowed values are "\code{left}" and "\code{right}".
+#' @param button character. Allowed values are \code{"left"}, \code{"right"}, and \code{"middle"}.
 #' @param hold logical. Whether the button should be held down.
 #' @export
 #' @seealso \code{\link[KeyboardSimulator]{mouse.release}}
@@ -141,8 +141,14 @@ mouse.click <- function(button = "left", hold = FALSE) {
     } else {
       mouse_right_click()
     }
+  } else if (btn == "middle") {
+    if (hold) {
+      mouse_middle_hold()
+    } else {
+      mouse_middle_click()
+    }
   } else {
-    stop("Argument 'button' should be either 'left' or 'right'.")
+    stop("Argument 'button' should be one of 'left', 'right', or 'middle'.")
   }
 }
 
@@ -150,7 +156,7 @@ mouse.click <- function(button = "left", hold = FALSE) {
 #' 
 #' Simulate the release of mouse button held by \code{\link[KeyboardSimulator]{mouse.click}}.
 #' 
-#' @param button character. Allowed values are "\code{left}" and "\code{right}".
+#' @param button character. Allowed values are \code{"left"}, \code{"right"}, and \code{"middle"}.
 #' @export
 #' @seealso \code{\link[KeyboardSimulator]{mouse.click}}
 #' @examples
@@ -168,8 +174,10 @@ mouse.release <- function(button = "left") {
     mouse_left_release()
   } else if (btn == "right") {
     mouse_right_release()
+  } else if (btn == "middle") {
+    mouse_middle_release()
   } else {
-    stop("Argument 'button' should be either 'left' or 'right'.")
+    stop("Argument 'button' should be one of 'left', 'right', or 'middle'.")
   }
 }
 

@@ -17,6 +17,18 @@ mouse_left_release <- function() {
     invisible(.Call('_KeyboardSimulator_mouse_left_release', PACKAGE = 'KeyboardSimulator'))
 }
 
+mouse_middle_click <- function() {
+    invisible(.Call('_KeyboardSimulator_mouse_middle_click', PACKAGE = 'KeyboardSimulator'))
+}
+
+mouse_middle_hold <- function() {
+    invisible(.Call('_KeyboardSimulator_mouse_middle_hold', PACKAGE = 'KeyboardSimulator'))
+}
+
+mouse_middle_release <- function() {
+    invisible(.Call('_KeyboardSimulator_mouse_middle_release', PACKAGE = 'KeyboardSimulator'))
+}
+
 mouse_right_click <- function() {
     invisible(.Call('_KeyboardSimulator_mouse_right_click', PACKAGE = 'KeyboardSimulator'))
 }

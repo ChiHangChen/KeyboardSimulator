@@ -7,12 +7,12 @@
 mouse.click(button = "left", hold = FALSE)
 }
 \arguments{
-\item{button}{character. Allowed values are "\code{left}" and "\code{right}".}
+\item{button}{character. Allowed values are \code{"left"}, \code{"right"}, and \code{"middle"}.}
 
 \item{hold}{logical. Whether the button should be held down.}
 }
 \description{
-Simulate left and right button of mouse clicks.
+Simulate left, right, and middle mouse clicks.
 }
 \examples{
 \dontrun{

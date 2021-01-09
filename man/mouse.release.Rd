@@ -7,7 +7,7 @@
 mouse.release(button = "left")
 }
 \arguments{
-\item{button}{character. Allowed values are "\code{left}" and "\code{right}".}
+\item{button}{character. Allowed values are \code{"left"}, \code{"right"}, and \code{"middle"}.}
 }
 \description{
 Simulate the release of mouse button held by \code{\link[KeyboardSimulator]{mouse.click}}.
