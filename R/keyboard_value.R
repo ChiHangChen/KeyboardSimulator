@@ -237,6 +237,7 @@ keyboard_value <- list(
   list(button = "f12",       virt_code = 0x7B, scan_code = 0xDA, prefix_byte = FALSE, shift = FALSE),
   list(button = "backspace", virt_code = 0x08, scan_code = 0x0E, prefix_byte = FALSE, shift = FALSE),
   list(button = "space",     virt_code = 0x20, scan_code = 0x27, prefix_byte = FALSE, shift = FALSE),
+  list(button = "prtsc",     virt_code = 0x2C, scan_code = 0x37, prefix_byte = FALSE, shift = FALSE),
   list(button = "tab",       virt_code = 0x09, scan_code = 0x0F, prefix_byte = FALSE, shift = FALSE),
   list(button = "enter",     virt_code = 0x0D, scan_code = 0x1C, prefix_byte = FALSE, shift = FALSE),
   list(button = "shift",     virt_code = 0x10, scan_code = 0x2A, prefix_byte = FALSE, shift = FALSE),
