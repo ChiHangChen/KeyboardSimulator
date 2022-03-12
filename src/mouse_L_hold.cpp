@@ -9,7 +9,3 @@ using namespace Rcpp;
 void mouse_left_hold (){
   mouse_event (MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0 ) ;
 }
-
-//Rcpp::sourceCpp("C:/Users/ChiHang/Documents/GitHub/KeyboardSimulator/KeyboardSimulator/src/mouse_L_hold.cpp")
-//alt 18
-//alt 115
