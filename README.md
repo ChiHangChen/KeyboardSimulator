@@ -3,7 +3,7 @@
 </p>
 
 
-# **Introduction to KeyboardSimulator**
+# **KeyboardSimulator**
 
 ![CRAN](https://img.shields.io/badge/CRAN-2.6.0-brightgreen)
 [![](https://cranlogs.r-pkg.org/badges/KeyboardSimulator)](https://CRAN.R-project.org/package=KeyboardSimulator)
