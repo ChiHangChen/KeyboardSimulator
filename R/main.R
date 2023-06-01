@@ -183,7 +183,7 @@ mouse.release <- function(button = "left") {
 
 #' Move Cursor to Specific Location
 #'
-#' Move cursor to specific coordinate of screen .
+#' Move cursor to specific coordinate of screen.
 #'
 #' @param x numeric. X-axis of screen.
 #' @param y numeric. Y-axis of screen.
