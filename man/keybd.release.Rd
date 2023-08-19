@@ -16,11 +16,11 @@ Simulate the release of keyboard keys held by \code{\link[KeyboardSimulator]{key
 \dontrun{
 
 # Move to the third working window
-keybd.press('Alt', hold = TRUE)
-keybd.press('Tab')
+keybd.press("Alt", hold = TRUE)
+keybd.press("Tab")
 Sys.sleep(0.1)
-keybd.press('Tab')
-keybd.release('Alt')
+keybd.press("Tab")
+keybd.release("Alt")
 }
 }
 \seealso{

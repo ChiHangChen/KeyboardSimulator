@@ -1,8 +1,8 @@
 Package: KeyboardSimulator
 Type: Package
 Title: Keyboard and Mouse Input Simulation for Windows OS
-Version: 2.6.0
-Date: 2021-01-09
+Version: 2.6.1
+Date: 2023-08-19
 Authors@R: c(person("Jim", "Chen", role = c("aut", "cre"), email = "jim71183@gmail.com"),
              person("Jeff", "Keller", role = c("aut", "ctb"), email = "github@vtkellers.com"),
              person("Garry", "Hopwood", role = c("ctb"), email = "garryhopwood@hotmail.com"),
@@ -11,7 +11,7 @@ Description: Control your keyboard and mouse with R code by simulating key press
 License: GPL (>= 2) | file LICENSE
 Imports: Rcpp (>= 1.0.0)
 LinkingTo: Rcpp
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.3
 Encoding: UTF-8
 Depends: R (>= 2.10)
 OS_type: windows

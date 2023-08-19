@@ -9,7 +9,7 @@ keybd.press(button, hold = FALSE)
 \arguments{
 \item{button}{character. The key press to simulate (not case sensitive).}
 
-\item{hold}{logical. Whether the key should be held down. If \code{TRUE}, the key can 
+\item{hold}{logical. Whether the key should be held down. If \code{TRUE}, the key can
 be released by pressing the phsical key on the keyboard or by using the \code{\link[KeyboardSimulator]{keybd.release}} function.}
 }
 \description{
@@ -19,15 +19,15 @@ Simulate keyboard key presses. Multiple keys can be pressed simultaneously by us
 \dontrun{
 
 # press one key
-keybd.press('a')
+keybd.press("a")
 
 # press multiple keys
-keybd.press('Alt+F4')
+keybd.press("Alt+F4")
 
 # press multiple keys using hold
-keybd.press('Alt', hold = TRUE)
-keybd.press('F4')
-keybd.release('Alt')
+keybd.press("Alt", hold = TRUE)
+keybd.press("F4")
+keybd.release("Alt")
 }
 }
 \seealso{
