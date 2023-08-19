@@ -91,7 +91,7 @@ keybd.release <- function(button) {
 #' }
 keybd.type_string <- function(string) {
   shift_key_row <- keyboard_value[keyboard_value$button == "shift", ]
-  if (class(string) != "character") stop("Argument 'string' must be a character string.")
+  if (!is.character(string)) stop("Argument 'string' must be a character string.")
   button_str <- strsplit(string, "")[[1]]
   button_check <- !button_str %in% keyboard_value$button
   if (any(button_check)) {
@@ -200,11 +200,11 @@ mouse.release <- function(button = "left") {
 #' mouse.move(x = 960, y = 540, duration = 3)
 #' }
 mouse.move <- function(x, y, duration = NA, step_ratio = 0.01) {
-  if (class(x) != "numeric" | class(y) != "numeric") stop("Argument must be numeric")
+  if (!is.numeric(x) | !is.numeric(y)) stop("Argument must be numeric")
   if (!is.na(duration)) {
     if (!is.numeric(duration)) {
       stop("Argument must be numeric")
-    } else if (class(step_ratio) != "numeric") {
+    } else if (!is.numeric(step_ratio)) {
       stop("Argument must be numeric")
     } else {
       time_seg <- duration * step_ratio
