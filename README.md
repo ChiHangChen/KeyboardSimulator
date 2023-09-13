@@ -5,7 +5,7 @@
 
 # **KeyboardSimulator**
 
-![CRAN](https://img.shields.io/badge/CRAN-2.6.0-brightgreen)
+![CRAN](https://img.shields.io/badge/CRAN-2.6.2-brightgreen)
 [![](https://cranlogs.r-pkg.org/badges/KeyboardSimulator)](https://CRAN.R-project.org/package=KeyboardSimulator)
 
 `KeyboardSimulator` is a package for R language that make users simulate keyboard event, cursor movement and mouse click with simple R function.

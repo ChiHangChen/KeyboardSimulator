@@ -3,8 +3,5 @@
 #' Control your keyboard and mouse with R code by simulating key presses and mouse clicks. The input simulation is implemented with the Windows API.
 #'
 "_PACKAGE"
-#' @docType package
 #' @author Jim Chen, Jeff Keller
-#' @import Rcpp
-#' @useDynLib KeyboardSimulator
 #' @name KeyboardSimulator

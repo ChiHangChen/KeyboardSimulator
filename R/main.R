@@ -9,6 +9,8 @@
 #' @param hold logical. Whether the key should be held down. If \code{TRUE}, the key can
 #' be released by pressing the phsical key on the keyboard or by using the \code{\link[KeyboardSimulator]{keybd.release}} function.
 #' @export
+#' @import Rcpp
+#' @useDynLib KeyboardSimulator
 #' @seealso \code{\link[KeyboardSimulator]{keybd.release}}
 #' @examples
 #' \dontrun{
