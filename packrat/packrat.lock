@@ -190,7 +190,7 @@ Requires: base64enc, evaluate, htmltools, jsonlite, knitr, mime,
 
 Package: roxygen2
 Source: CRAN
-Version: 6.1.1
+Version: 7.0.0
 Hash: 8d50e18cdfe6805761db35b027b254eb
 Requires: R6, Rcpp, brew, commonmark, desc, digest, pkgload, purrr,
     stringi, stringr, xml2
